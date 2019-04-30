@@ -1,0 +1,49 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1556551812553' stop='1556551822686'>
+    <name>protection basic settings: IP based on: with 1 IP</name>
+    <title>protection basic settings: IP based on: with 1 IP</title>
+    <test-cases>
+        <test-case start='1556551822600' status='passed' stop='1556551822600'>
+            <name>UI check mode</name>
+            <title>UI check mode</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-10'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556551822601' status='passed' stop='1556551822640'>
+            <name>in the list, curl should be reloaded, curl=/155655178006089</name>
+            <title>in the list, curl should be reloaded, curl=/155655178006089</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-10'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556551822640' status='passed' stop='1556551822686'>
+            <name>not in the list, curl should not be reloaded nor rejected, curl=/155655178006089</name>
+            <title>not in the list, curl should not be reloaded nor rejected, curl=/155655178006089</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-10'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,57 @@
+{
+  "uid" : "209b3db949a24273",
+  "name" : "check post nonwhitelist will 400",
+  "fullName" : "protection invalid request policy:  reject.check post nonwhitelist will 400",
+  "historyId" : "efebffaedef391e20950a7dd50cd8cb",
+  "time" : {
+    "start" : 1556551771793,
+    "stop" : 1556551771824,
+    "duration" : 31
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-9"
+  }, {
+    "name" : "suite",
+    "value" : "protection invalid request policy:  reject"
+  }, {
+    "name" : "testClass",
+    "value" : "protection invalid request policy:  reject"
+  }, {
+    "name" : "testMethod",
+    "value" : "check post nonwhitelist will 400"
+  }, {
+    "name" : "package",
+    "value" : "protection invalid request policy:  reject"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "209b3db949a24273.json",
+  "parameterValues" : [ "chrome" ]
+}

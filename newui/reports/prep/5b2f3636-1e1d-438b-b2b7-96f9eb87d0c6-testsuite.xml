@@ -1,0 +1,43 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1556185773991' stop='1556185775066'>
+    <name>setup default network</name>
+    <title>setup default network</title>
+    <test-cases>
+        <test-case start='1556185775056' status='failed' stop='1556185775064'>
+            <name>set default dns and ntp</name>
+            <title>set default dns and ntp</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1556185775059' status='failed' stop='1556185775064'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='cba17ebe-7627-4414-a68e-4620495a4a08-attachment.json' type='application/json' size='52'/>
+                    </attachments>
+                    <steps>
+                        <step start='1556185775062' status='failed' stop='1556185775064'>
+                            <name>POST /session/:sessionId/log</name>
+                            <title>POST /session/:sessionId/log</title>
+                            <attachments>
+                                <attachment title='Request' source='8227db25-0e5a-4e35-bfb4-ef9c88726069-attachment.json' type='application/json' size='23'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: A sessionId is required for this command</message>
+                <stack-trace>Error: A sessionId is required for this command</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

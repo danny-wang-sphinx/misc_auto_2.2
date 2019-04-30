@@ -1,0 +1,93 @@
+{
+  "uid" : "44d34b79c716c9ed",
+  "name" : "inital ruleId should not empty",
+  "fullName" : "protection waf.id:  default check.inital ruleId should not empty",
+  "historyId" : "2e48f1404433c1982e4dba3f942e6a12",
+  "time" : {
+    "start" : 1556552114216,
+    "stop" : 1556552114531,
+    "duration" : 315
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "CompoundError: One or more errors occurred. ---\n                    Error: Expected 'undefined' to be 'string'.\n                        at <Jasmine>\n                        at <Jasmine>\n                        at UserContext.it (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/newui/specs/protection/profile.waf.id.basic.js:17:32)\n                --- End of stack trace ---\n                        at <Jasmine>\n                        at UserContext.it (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/newui/specs/protection/profile.waf.id.basic.js:18:24)\n                --- End of stack trace ---",
+  "statusTrace" : "Error: CompoundError: One or more errors occurred. ---\n                    Error: Expected 'undefined' to be 'string'.\n                        at <Jasmine>\n                        at <Jasmine>\n                        at UserContext.it (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/newui/specs/protection/profile.waf.id.basic.js:17:32)\n                --- End of stack trace ---\n                        at <Jasmine>\n                        at UserContext.it (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/newui/specs/protection/profile.waf.id.basic.js:18:24)\n                --- End of stack trace ---\n                    at getErrorFromFailedTest (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/node_modules/@wdio/allure-reporter/build/utils.js:80:56)\n                    at AllureReporter.onTestFail (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/node_modules/@wdio/allure-reporter/build/index.js:109:67)\n                    at AllureReporter.WDIOReporter.on.test (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/node_modules/@wdio/reporter/build/index.js:131:12)\n                    at AllureReporter.emit (events.js:197:13)\n                    at AllureReporter.EventEmitter.emit (domain.js:446:20)\n                    at reporters.forEach.reporter (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/node_modules/@wdio/runner/build/reporter.js:53:49)\n                    at Array.forEach (<anonymous>)\n                    at BaseReporter.emit (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/node_modules/@wdio/runner/build/reporter.js:53:20)\n                    at JasmineReporter.emit (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/node_modules/@wdio/jasmine-framework/build/reporter.js:120:19)\n                    at JasmineReporter.specDone (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/node_modules/@wdio/jasmine-framework/build/reporter.js:66:10)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "CompoundError: One or more errors occurred. ---\n                    Error: Expected 'undefined' to be 'string'.\n                        at <Jasmine>\n                        at <Jasmine>\n                        at UserContext.it (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/newui/specs/protection/profile.waf.id.basic.js:17:32)\n                --- End of stack trace ---\n                        at <Jasmine>\n                        at UserContext.it (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/newui/specs/protection/profile.waf.id.basic.js:18:24)\n                --- End of stack trace ---",
+    "statusTrace" : "Error: CompoundError: One or more errors occurred. ---\n                    Error: Expected 'undefined' to be 'string'.\n                        at <Jasmine>\n                        at <Jasmine>\n                        at UserContext.it (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/newui/specs/protection/profile.waf.id.basic.js:17:32)\n                --- End of stack trace ---\n                        at <Jasmine>\n                        at UserContext.it (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/newui/specs/protection/profile.waf.id.basic.js:18:24)\n                --- End of stack trace ---\n                    at getErrorFromFailedTest (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/node_modules/@wdio/allure-reporter/build/utils.js:80:56)\n                    at AllureReporter.onTestFail (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/node_modules/@wdio/allure-reporter/build/index.js:109:67)\n                    at AllureReporter.WDIOReporter.on.test (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/node_modules/@wdio/reporter/build/index.js:131:12)\n                    at AllureReporter.emit (events.js:197:13)\n                    at AllureReporter.EventEmitter.emit (domain.js:446:20)\n                    at reporters.forEach.reporter (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/node_modules/@wdio/runner/build/reporter.js:53:49)\n                    at Array.forEach (<anonymous>)\n                    at BaseReporter.emit (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/node_modules/@wdio/runner/build/reporter.js:53:20)\n                    at JasmineReporter.emit (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/node_modules/@wdio/jasmine-framework/build/reporter.js:120:19)\n                    at JasmineReporter.specDone (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/node_modules/@wdio/jasmine-framework/build/reporter.js:66:10)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1aa4e3b5c956d2f2",
+      "name" : "Screenshot",
+      "source" : "1aa4e3b5c956d2f2.png",
+      "type" : "image/png",
+      "size" : 75511
+    }, {
+      "uid" : "9c7bee1bd24b7bc1",
+      "name" : "errors",
+      "source" : "9c7bee1bd24b7bc1.txt",
+      "type" : "text/plain",
+      "size" : 1052
+    }, {
+      "uid" : "cdac81757c2e03b6",
+      "name" : "pageSource",
+      "source" : "cdac81757c2e03b6.txt",
+      "type" : "text/plain",
+      "size" : 28920
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-18"
+  }, {
+    "name" : "suite",
+    "value" : "protection waf.id:  default check"
+  }, {
+    "name" : "testClass",
+    "value" : "protection waf.id:  default check"
+  }, {
+    "name" : "testMethod",
+    "value" : "inital ruleId should not empty"
+  }, {
+    "name" : "package",
+    "value" : "protection waf.id:  default check"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "44d34b79c716c9ed.json",
+  "parameterValues" : [ "chrome" ]
+}

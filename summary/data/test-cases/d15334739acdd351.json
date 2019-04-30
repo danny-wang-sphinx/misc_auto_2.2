@@ -1,0 +1,57 @@
+{
+  "uid" : "d15334739acdd351",
+  "name" : "all: curl post will not be rejected",
+  "fullName" : "protection request whitelist  set two items, one getonly, one not.all: curl post will not be rejected",
+  "historyId" : "96e633541fac2373d5ab8fd25471b146",
+  "time" : {
+    "start" : 1556554463360,
+    "stop" : 1556554463401,
+    "duration" : 41
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-40"
+  }, {
+    "name" : "suite",
+    "value" : "protection request whitelist  set two items, one getonly, one not"
+  }, {
+    "name" : "testClass",
+    "value" : "protection request whitelist  set two items, one getonly, one not"
+  }, {
+    "name" : "testMethod",
+    "value" : "all: curl post will not be rejected"
+  }, {
+    "name" : "package",
+    "value" : "protection request whitelist  set two items, one getonly, one not"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d15334739acdd351.json",
+  "parameterValues" : [ "chrome" ]
+}

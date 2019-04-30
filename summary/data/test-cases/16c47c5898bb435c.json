@@ -1,0 +1,57 @@
+{
+  "uid" : "16c47c5898bb435c",
+  "name" : "check ui",
+  "fullName" : "protection request whitelist  set one item getonly.check ui",
+  "historyId" : "570799d4dd928660e3bdf7ef7aabe777",
+  "time" : {
+    "start" : 1556551954809,
+    "stop" : 1556551954812,
+    "duration" : 3
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-14"
+  }, {
+    "name" : "suite",
+    "value" : "protection request whitelist  set one item getonly"
+  }, {
+    "name" : "testClass",
+    "value" : "protection request whitelist  set one item getonly"
+  }, {
+    "name" : "testMethod",
+    "value" : "check ui"
+  }, {
+    "name" : "package",
+    "value" : "protection request whitelist  set one item getonly"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "16c47c5898bb435c.json",
+  "parameterValues" : [ "chrome" ]
+}

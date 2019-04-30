@@ -1,0 +1,136 @@
+{
+  "script": "return (function(ele){ele.click()}).apply(null, arguments)",
+  "args": [
+    {
+      "sessionId": "0b8feef4e23c009d11086ceb4a492cbe",
+      "elementId": "0.6292470251336799-3",
+      "ELEMENT": "0.6292470251336799-3",
+      "selector": ".user-menu > a",
+      "parent": {
+        "sessionId": "0b8feef4e23c009d11086ceb4a492cbe",
+        "capabilities": {
+          "acceptInsecureCerts": false,
+          "acceptSslCerts": false,
+          "applicationCacheEnabled": false,
+          "browserConnectionEnabled": false,
+          "browserName": "chrome",
+          "chrome": {
+            "chromedriverVersion": "2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387)",
+            "userDataDir": "C:\\Users\\liuli\\AppData\\Local\\Temp\\scoped_dir4516_29965"
+          },
+          "cssSelectorsEnabled": true,
+          "databaseEnabled": false,
+          "goog:chromeOptions": {
+            "debuggerAddress": "localhost:50517"
+          },
+          "handlesAlerts": true,
+          "hasTouchScreen": false,
+          "javascriptEnabled": true,
+          "locationContextEnabled": true,
+          "mobileEmulationEnabled": false,
+          "nativeEvents": true,
+          "networkConnectionEnabled": false,
+          "pageLoadStrategy": "normal",
+          "platform": "Windows NT",
+          "proxy": {},
+          "rotatable": false,
+          "setWindowRect": true,
+          "strictFileInteractability": false,
+          "takesHeapSnapshot": true,
+          "takesScreenshot": true,
+          "timeouts": {
+            "implicit": 0,
+            "pageLoad": 300000,
+            "script": 30000
+          },
+          "unexpectedAlertBehaviour": "ignore",
+          "version": "73.0.3683.103",
+          "webStorageEnabled": true,
+          "webdriver.remote.sessionid": "0b8feef4e23c009d11086ceb4a492cbe"
+        },
+        "config": {
+          "hostname": "192.168.254.13",
+          "port": 4444,
+          "protocol": "http",
+          "sync": true,
+          "specs": [
+            "/Volumes/Extreme SSD/studyjs/misc_auto/newui/config/../preparation/setup.*.js"
+          ],
+          "suites": {},
+          "exclude": [],
+          "outputDir": "/Volumes/Extreme SSD/studyjs/misc_auto/newui/config/../reports/prep",
+          "logLevel": "info",
+          "deprecationWarnings": true,
+          "baseUrl": "https://192.168.254.222:20145",
+          "bail": 0,
+          "waitforInterval": 500,
+          "waitforTimeout": 60000,
+          "framework": "jasmine",
+          "reporters": [
+            "spec",
+            [
+              "allure",
+              {
+                "outputDir": "/Volumes/Extreme SSD/studyjs/misc_auto/newui/config/../reports/prep",
+                "disableWebdriverStepsReporting": false,
+                "disableWebdriverScreenshotsReporting": false
+              }
+            ]
+          ],
+          "maxInstances": 1,
+          "maxInstancesPerCapability": 100,
+          "filesToWatch": [],
+          "connectionRetryTimeout": 90000,
+          "connectionRetryCount": 3,
+          "debug": false,
+          "execArgv": [],
+          "runnerEnv": {},
+          "runner": "local",
+          "mochaOpts": {
+            "timeout": 10000
+          },
+          "jasmineNodeOpts": {
+            "defaultTimeoutInterval": 60000
+          },
+          "cucumberOpts": {
+            "timeout": 10000
+          },
+          "before": [],
+          "beforeSession": [],
+          "beforeSuite": [],
+          "beforeHook": [],
+          "beforeTest": [
+            null
+          ],
+          "beforeCommand": [],
+          "afterCommand": [],
+          "afterTest": [
+            null
+          ],
+          "afterHook": [],
+          "afterSuite": [],
+          "afterSession": [],
+          "after": [],
+          "onReload": [],
+          "beforeFeature": [],
+          "beforeScenario": [],
+          "beforeStep": [],
+          "afterFeature": [],
+          "afterScenario": [],
+          "afterStep": [],
+          "path": "/wd/hub",
+          "_": [
+            "newui/config/wdio.conf.prep.js"
+          ],
+          "$0": "/Volumes/Extreme SSD/studyjs/misc_auto/node_modules/.bin/wdio",
+          "cid": "0-0",
+          "capabilities": {
+            "browserName": "chrome"
+          },
+          "disableWebdriverStepsReporting": false,
+          "disableWebdriverScreenshotsReporting": false
+        }
+      }
+    }
+  ]
+}

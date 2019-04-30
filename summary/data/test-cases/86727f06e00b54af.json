@@ -1,0 +1,57 @@
+{
+  "uid" : "86727f06e00b54af",
+  "name" : "check log page shows IP as header value 2.2.2.2",
+  "fullName" : "update src ip to X-Forwarded-For: penultimate.check log page shows IP as header value 2.2.2.2",
+  "historyId" : "539f88e16d89dc3580d467ee3f71fdd4",
+  "time" : {
+    "start" : 1556554666601,
+    "stop" : 1556554681165,
+    "duration" : 14564
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-47"
+  }, {
+    "name" : "suite",
+    "value" : "update src ip to X-Forwarded-For: penultimate"
+  }, {
+    "name" : "testClass",
+    "value" : "update src ip to X-Forwarded-For: penultimate"
+  }, {
+    "name" : "testMethod",
+    "value" : "check log page shows IP as header value 2.2.2.2"
+  }, {
+    "name" : "package",
+    "value" : "update src ip to X-Forwarded-For: penultimate"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "86727f06e00b54af.json",
+  "parameterValues" : [ "chrome" ]
+}

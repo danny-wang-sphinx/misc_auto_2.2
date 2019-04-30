@@ -1,0 +1,57 @@
+{
+  "uid" : "c9a2e11f0c935114",
+  "name" : "show data correctly",
+  "fullName" : "Operation log.show data correctly",
+  "historyId" : "bb964e574c71ef4ffa5842ae3fd0a1ab",
+  "time" : {
+    "start" : 1556553610571,
+    "stop" : 1556553612703,
+    "duration" : 2132
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-25"
+  }, {
+    "name" : "suite",
+    "value" : "Operation log"
+  }, {
+    "name" : "testClass",
+    "value" : "Operation log"
+  }, {
+    "name" : "testMethod",
+    "value" : "show data correctly"
+  }, {
+    "name" : "package",
+    "value" : "Operation log"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c9a2e11f0c935114.json",
+  "parameterValues" : [ "chrome" ]
+}

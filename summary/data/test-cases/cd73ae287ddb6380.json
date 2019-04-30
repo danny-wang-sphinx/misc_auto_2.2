@@ -1,0 +1,57 @@
+{
+  "uid" : "cd73ae287ddb6380",
+  "name" : "check ui",
+  "fullName" : "https:  http to https: on.check ui",
+  "historyId" : "a42c710b1da7f84aae3e2c5e55beea91",
+  "time" : {
+    "start" : 1556551740499,
+    "stop" : 1556551743660,
+    "duration" : 3161
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-8"
+  }, {
+    "name" : "suite",
+    "value" : "https:  http to https: on"
+  }, {
+    "name" : "testClass",
+    "value" : "https:  http to https: on"
+  }, {
+    "name" : "testMethod",
+    "value" : "check ui"
+  }, {
+    "name" : "package",
+    "value" : "https:  http to https: on"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cd73ae287ddb6380.json",
+  "parameterValues" : [ "chrome" ]
+}

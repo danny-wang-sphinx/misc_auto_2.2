@@ -1,0 +1,57 @@
+{
+  "uid" : "acc6a9e9a1e5b4a3",
+  "name" : "all offline, check dashboard page",
+  "fullName" : "Profile basic setting: health exam  TCP.all offline, check dashboard page",
+  "historyId" : "549d3427ccf8efb9b9f0c718d5e5ffd6",
+  "time" : {
+    "start" : 1556553741733,
+    "stop" : 1556553771308,
+    "duration" : 29575
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-27"
+  }, {
+    "name" : "suite",
+    "value" : "Profile basic setting: health exam  TCP"
+  }, {
+    "name" : "testClass",
+    "value" : "Profile basic setting: health exam  TCP"
+  }, {
+    "name" : "testMethod",
+    "value" : "all offline, check dashboard page"
+  }, {
+    "name" : "package",
+    "value" : "Profile basic setting: health exam  TCP"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "acc6a9e9a1e5b4a3.json",
+  "parameterValues" : [ "chrome" ]
+}

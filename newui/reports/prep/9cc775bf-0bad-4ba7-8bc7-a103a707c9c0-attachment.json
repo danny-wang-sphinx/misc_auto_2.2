@@ -1,0 +1,9 @@
+{
+  "script": "return (function(ele){ele.value=''}).apply(null, arguments)",
+  "args": [
+    {
+      "element-6066-11e4-a52e-4f735466cecf": "0.7231464253713262-44",
+      "ELEMENT": "0.7231464253713262-44"
+    }
+  ]
+}

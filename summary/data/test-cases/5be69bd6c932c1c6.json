@@ -1,0 +1,57 @@
+{
+  "uid" : "5be69bd6c932c1c6",
+  "name" : "support account: type and pwd is readonly",
+  "fullName" : "Update User page display check.support account: type and pwd is readonly",
+  "historyId" : "ada35b3d1a5f7d1ec1a61d1db581d18f",
+  "time" : {
+    "start" : 1556554475503,
+    "stop" : 1556554477285,
+    "duration" : 1782
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-41"
+  }, {
+    "name" : "suite",
+    "value" : "Update User page display check"
+  }, {
+    "name" : "testClass",
+    "value" : "Update User page display check"
+  }, {
+    "name" : "testMethod",
+    "value" : "support account: type and pwd is readonly"
+  }, {
+    "name" : "package",
+    "value" : "Update User page display check"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5be69bd6c932c1c6.json",
+  "parameterValues" : [ "chrome" ]
+}

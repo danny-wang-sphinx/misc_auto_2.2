@@ -1,0 +1,35 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1556552091561' stop='1556552098343'>
+    <name>protection waf features:  on</name>
+    <title>protection waf features:  on</title>
+    <test-cases>
+        <test-case start='1556552098319' status='passed' stop='1556552098320'>
+            <name>check uistatus</name>
+            <title>check uistatus</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-17'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556552098320' status='passed' stop='1556552098343'>
+            <name>check inject query will be rejected</name>
+            <title>check inject query will be rejected</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-17'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

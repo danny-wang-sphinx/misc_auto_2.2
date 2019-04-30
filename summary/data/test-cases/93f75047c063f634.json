@@ -1,0 +1,57 @@
+{
+  "uid" : "93f75047c063f634",
+  "name" : "check UI",
+  "fullName" : "protection basic settings: set entry point non default.check UI",
+  "historyId" : "d2ac2c74fe79aeb902b11675f9aefc5",
+  "time" : {
+    "start" : 1556551473722,
+    "stop" : 1556551473725,
+    "duration" : 3
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-4"
+  }, {
+    "name" : "suite",
+    "value" : "protection basic settings: set entry point non default"
+  }, {
+    "name" : "testClass",
+    "value" : "protection basic settings: set entry point non default"
+  }, {
+    "name" : "testMethod",
+    "value" : "check UI"
+  }, {
+    "name" : "package",
+    "value" : "protection basic settings: set entry point non default"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "93f75047c063f634.json",
+  "parameterValues" : [ "chrome" ]
+}

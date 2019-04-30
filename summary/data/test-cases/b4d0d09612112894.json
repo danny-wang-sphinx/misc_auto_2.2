@@ -1,0 +1,57 @@
+{
+  "uid" : "b4d0d09612112894",
+  "name" : "change type from viewer to admin : enabled",
+  "fullName" : "default admin account management.change type from viewer to admin : enabled",
+  "historyId" : "1f17a5906636da7007d67977217cf59b",
+  "time" : {
+    "start" : 1556553448869,
+    "stop" : 1556553463031,
+    "duration" : 14162
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-22"
+  }, {
+    "name" : "suite",
+    "value" : "default admin account management"
+  }, {
+    "name" : "testClass",
+    "value" : "default admin account management"
+  }, {
+    "name" : "testMethod",
+    "value" : "change type from viewer to admin : enabled"
+  }, {
+    "name" : "package",
+    "value" : "default admin account management"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b4d0d09612112894.json",
+  "parameterValues" : [ "chrome" ]
+}

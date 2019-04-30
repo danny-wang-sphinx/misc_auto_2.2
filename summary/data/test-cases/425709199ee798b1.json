@@ -1,0 +1,57 @@
+{
+  "uid" : "425709199ee798b1",
+  "name" : "check p3p value from conf file",
+  "fullName" : "advanced setting: request and response headers all enabled with some changed value.check p3p value from conf file",
+  "historyId" : "6e8061695de89a31c82868011f65d3ba",
+  "time" : {
+    "start" : 1556554424810,
+    "stop" : 1556554424835,
+    "duration" : 25
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-39"
+  }, {
+    "name" : "suite",
+    "value" : "advanced setting: request and response headers all enabled with some changed value"
+  }, {
+    "name" : "testClass",
+    "value" : "advanced setting: request and response headers all enabled with some changed value"
+  }, {
+    "name" : "testMethod",
+    "value" : "check p3p value from conf file"
+  }, {
+    "name" : "package",
+    "value" : "advanced setting: request and response headers all enabled with some changed value"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "425709199ee798b1.json",
+  "parameterValues" : [ "chrome" ]
+}

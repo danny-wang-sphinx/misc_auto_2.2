@@ -1,0 +1,57 @@
+{
+  "uid" : "3a8c5ecc24950598",
+  "name" : "check uistatus",
+  "fullName" : "protection web standard security scheme: autoTool dection  true.check uistatus",
+  "historyId" : "8d8ca2d3ff344ebd9e6b18d0e1126d9c",
+  "time" : {
+    "start" : 1556551348436,
+    "stop" : 1556551348436,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "protection web standard security scheme: autoTool dection  true"
+  }, {
+    "name" : "testClass",
+    "value" : "protection web standard security scheme: autoTool dection  true"
+  }, {
+    "name" : "testMethod",
+    "value" : "check uistatus"
+  }, {
+    "name" : "package",
+    "value" : "protection web standard security scheme: autoTool dection  true"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3a8c5ecc24950598.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,57 @@
+{
+  "uid" : "e6568df507cb065a",
+  "name" : "cookie token should be on 90",
+  "fullName" : "protection port offset  set port 90.cookie token should be on 90",
+  "historyId" : "90208b370141cce730538693896a112d",
+  "time" : {
+    "start" : 1556551919504,
+    "stop" : 1556551919534,
+    "duration" : 30
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-13"
+  }, {
+    "name" : "suite",
+    "value" : "protection port offset  set port 90"
+  }, {
+    "name" : "testClass",
+    "value" : "protection port offset  set port 90"
+  }, {
+    "name" : "testMethod",
+    "value" : "cookie token should be on 90"
+  }, {
+    "name" : "package",
+    "value" : "protection port offset  set port 90"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e6568df507cb065a.json",
+  "parameterValues" : [ "chrome" ]
+}

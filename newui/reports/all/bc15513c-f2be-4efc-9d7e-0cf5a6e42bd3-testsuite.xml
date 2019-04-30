@@ -1,0 +1,35 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1556554471803' stop='1556554477286'>
+    <name>Update User page display check</name>
+    <title>Update User page display check</title>
+    <test-cases>
+        <test-case start='1556554471804' status='passed' stop='1556554475502'>
+            <name>username should be readonly</name>
+            <title>username should be readonly</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-41'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556554475503' status='passed' stop='1556554477285'>
+            <name>support account: type and pwd is readonly</name>
+            <title>support account: type and pwd is readonly</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-41'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

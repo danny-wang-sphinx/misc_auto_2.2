@@ -1,0 +1,57 @@
+{
+  "uid" : "2b83707a28f5dd88",
+  "name" : "check ui: protocol and server",
+  "fullName" : "Log output: formatted log set tcp: all log.check ui: protocol and server",
+  "historyId" : "a1042b683ea10270a34f0828a87de30d",
+  "time" : {
+    "start" : 1556554738610,
+    "stop" : 1556554741611,
+    "duration" : 3001
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-48"
+  }, {
+    "name" : "suite",
+    "value" : "Log output: formatted log set tcp: all log"
+  }, {
+    "name" : "testClass",
+    "value" : "Log output: formatted log set tcp: all log"
+  }, {
+    "name" : "testMethod",
+    "value" : "check ui: protocol and server"
+  }, {
+    "name" : "package",
+    "value" : "Log output: formatted log set tcp: all log"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2b83707a28f5dd88.json",
+  "parameterValues" : [ "chrome" ]
+}

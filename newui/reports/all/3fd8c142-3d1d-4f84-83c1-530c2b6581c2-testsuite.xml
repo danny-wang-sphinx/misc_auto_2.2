@@ -1,0 +1,80 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1556552105838' stop='1556552117690'>
+    <name>protection waf.id:  default check</name>
+    <title>protection waf.id:  default check</title>
+    <test-cases>
+        <test-case start='1556552114216' status='failed' stop='1556552114531'>
+            <name>inital ruleId should not empty</name>
+            <title>inital ruleId should not empty</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-18'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='3cd11c60-c334-47af-ae28-ce26459f4e71-attachment.png' type='image/png' size='75511'/>
+                <attachment title='errors' source='5caef2dd-bdf5-4e39-8cac-9123c0039fe7-attachment.txt' type='text/plain' size='1052'/>
+                <attachment title='pageSource' source='83813502-e005-4f34-83d4-fd4a9cab6576-attachment.txt' type='text/plain' size='28920'/>
+            </attachments>
+            <failure>
+                <message>CompoundError: One or more errors occurred. ---
+                    Error: Expected 'undefined' to be 'string'.
+                        at &lt;Jasmine>
+                        at &lt;Jasmine>
+                        at UserContext.it (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/newui/specs/protection/profile.waf.id.basic.js:17:32)
+                --- End of stack trace ---
+                        at &lt;Jasmine>
+                        at UserContext.it (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/newui/specs/protection/profile.waf.id.basic.js:18:24)
+                --- End of stack trace ---</message>
+                <stack-trace>Error: CompoundError: One or more errors occurred. ---
+                    Error: Expected 'undefined' to be 'string'.
+                        at &lt;Jasmine>
+                        at &lt;Jasmine>
+                        at UserContext.it (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/newui/specs/protection/profile.waf.id.basic.js:17:32)
+                --- End of stack trace ---
+                        at &lt;Jasmine>
+                        at UserContext.it (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/newui/specs/protection/profile.waf.id.basic.js:18:24)
+                --- End of stack trace ---
+                    at getErrorFromFailedTest (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/node_modules/@wdio/allure-reporter/build/utils.js:80:56)
+                    at AllureReporter.onTestFail (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/node_modules/@wdio/allure-reporter/build/index.js:109:67)
+                    at AllureReporter.WDIOReporter.on.test (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/node_modules/@wdio/reporter/build/index.js:131:12)
+                    at AllureReporter.emit (events.js:197:13)
+                    at AllureReporter.EventEmitter.emit (domain.js:446:20)
+                    at reporters.forEach.reporter (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/node_modules/@wdio/runner/build/reporter.js:53:49)
+                    at Array.forEach (&lt;anonymous>)
+                    at BaseReporter.emit (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/node_modules/@wdio/runner/build/reporter.js:53:20)
+                    at JasmineReporter.emit (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/node_modules/@wdio/jasmine-framework/build/reporter.js:120:19)
+                    at JasmineReporter.specDone (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/node_modules/@wdio/jasmine-framework/build/reporter.js:66:10)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1556552114532' status='failed' stop='1556552117687'>
+            <name>check ui</name>
+            <title>check ui</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-18'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='a2fde7d4-3b3e-4a12-be39-b0873cca5583-attachment.png' type='image/png' size='97136'/>
+                <attachment title='errors' source='d2dec0c2-b18e-4c6e-800f-ba124cd7cc1f-attachment.txt' type='text/plain' size='776'/>
+                <attachment title='pageSource' source='8a7b2623-bce9-49cb-8f0d-f3cf94a60840-attachment.txt' type='text/plain' size='65009'/>
+            </attachments>
+            <failure>
+                <message>Expected undefined to be true.</message>
+                <stack-trace>Error: Expected undefined to be true.
+                    at &lt;Jasmine>
+                    at &lt;Jasmine>
+                    at UserContext.it (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/newui/specs/protection/profile.waf.id.basic.js:22:22)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

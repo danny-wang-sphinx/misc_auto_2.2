@@ -1,0 +1,11 @@
+{
+  "currentUrl": "https://192.168.5.18:20145/#/protection/domain/86ye8Gg4y",
+  "testError": {
+    "matcherName": "toBe",
+    "message": "Expected undefined to be true.",
+    "stack": "Error: Expected undefined to be true.\n    at <Jasmine>\n    at Spec.addExpectationResult (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/node_modules/@wdio/jasmine-framework/build/index.js:239:26)\n    at <Jasmine>\n    at UserContext.it (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/newui/specs/protection/profile.waf.id.basic.js:22:22)\n    at Promise (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/node_modules/@wdio/sync/build/index.js:58:22)",
+    "passed": false,
+    "expected": true
+  },
+  "browserErrorlog": []
+}

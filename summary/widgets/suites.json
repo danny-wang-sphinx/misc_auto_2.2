@@ -1,0 +1,114 @@
+{
+  "total" : 95,
+  "items" : [ {
+    "uid" : "e5aec0db143aa3436fecded19eefeb4f",
+    "name" : "protection waf.id:  default check",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "6f553e96a1dc2729d3efa192613d02fc",
+    "name" : "protection waf.id:  reenable the inital ruleId",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "d59c4aaf53f2446f1afb893bf47a9dc9",
+    "name" : "protection waf.id:  disable initial ruleId,",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "5c8fed083572453fb55662427a5bff7a",
+    "name" : "set error template {\"400\":true}",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "59af9d292fec372dcc9f172f41e26eeb",
+    "name" : "set error template {\"500\":true}",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "817456b7f91c959f1a76b53be63e4c67",
+    "name" : "set error template {\"400\":false,\"403\":false,\"404\":false,\"500\":false,\"502\":false,\"504\":false}",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "2410554a9d9f8dcacd2e27e525b1cc13",
+    "name" : "set error template {\"400\":true,\"403\":true,\"404\":true,\"500\":true,\"502\":true,\"504\":true}",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "8f9c910e52dec3e3aeb79fde0c491cbf",
+    "name" : "set error template {\"400\":true,\"403\":false,\"404\":false,\"500\":true,\"502\":true,\"504\":false}",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "12a26cf94acce908db85fd2366184685",
+    "name" : "role based menu and user menu check createdAdmin",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "9a1b0cd95456c100ad435b49a56246ce",
+    "name" : "role based menu and user menu check support",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    }
+  } ]
+}

@@ -1,0 +1,77 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1556554362364' stop='1556554373404'>
+    <name>protection basic settings: IP based off: one subnet + one IP</name>
+    <title>protection basic settings: IP based off: one subnet + one IP</title>
+    <test-cases>
+        <test-case start='1556554373240' status='passed' stop='1556554373240'>
+            <name>UI check mode</name>
+            <title>UI check mode</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-38'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556554373240' status='passed' stop='1556554373287'>
+            <name>off: in the range,diff ip, curl should not be reload nor reject, curl=/155655433866382</name>
+            <title>off: in the range,diff ip, curl should not be reload nor reject, curl=/155655433866382</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-38'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556554373287' status='passed' stop='1556554373330'>
+            <name>off: matching ip, curl should not be reload nor reject, curl=/155655433866382</name>
+            <title>off: matching ip, curl should not be reload nor reject, curl=/155655433866382</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-38'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556554373332' status='passed' stop='1556554373378'>
+            <name>off: matching iP, response should not include corejs, curl=/155655433866382</name>
+            <title>off: matching iP, response should not include corejs, curl=/155655433866382</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-38'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556554373379' status='passed' stop='1556554373403'>
+            <name>off: not in the range, curl should be reload, curl=/155655433866382</name>
+            <title>off: not in the range, curl should be reload, curl=/155655433866382</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-38'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

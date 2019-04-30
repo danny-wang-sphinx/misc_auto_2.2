@@ -1,0 +1,57 @@
+{
+  "uid" : "9f21d2e45cdf6ed0",
+  "name" : "none method should be 403",
+  "fullName" : "protection http methods enable all.none method should be 403",
+  "historyId" : "f65bff0efdf7b5945cc9dc01566695e6",
+  "time" : {
+    "start" : 1556551636128,
+    "stop" : 1556551666382,
+    "duration" : 30254
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-7"
+  }, {
+    "name" : "suite",
+    "value" : "protection http methods enable all"
+  }, {
+    "name" : "testClass",
+    "value" : "protection http methods enable all"
+  }, {
+    "name" : "testMethod",
+    "value" : "none method should be 403"
+  }, {
+    "name" : "package",
+    "value" : "protection http methods enable all"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9f21d2e45cdf6ed0.json",
+  "parameterValues" : [ "chrome" ]
+}

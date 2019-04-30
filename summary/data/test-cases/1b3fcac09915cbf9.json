@@ -1,0 +1,57 @@
+{
+  "uid" : "1b3fcac09915cbf9",
+  "name" : "change type from viewer to admin : enabled",
+  "fullName" : "created admin account management.change type from viewer to admin : enabled",
+  "historyId" : "d4a4c9dd6effd08207c6a8ea4db7ed48",
+  "time" : {
+    "start" : 1556554514490,
+    "stop" : 1556554527760,
+    "duration" : 13270
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-42"
+  }, {
+    "name" : "suite",
+    "value" : "created admin account management"
+  }, {
+    "name" : "testClass",
+    "value" : "created admin account management"
+  }, {
+    "name" : "testMethod",
+    "value" : "change type from viewer to admin : enabled"
+  }, {
+    "name" : "package",
+    "value" : "created admin account management"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1b3fcac09915cbf9.json",
+  "parameterValues" : [ "chrome" ]
+}

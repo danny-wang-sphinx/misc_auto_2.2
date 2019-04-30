@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1554133007609' stop='1554133040260'>
+    <name>setup default network</name>
+    <title>setup default network</title>
+    <test-cases>
+        <test-case start='1554133017373' status='failed' stop='1554133040259'>
+            <name>set default dns and ntp</name>
+            <title>set default dns and ntp</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='075b381f-c24f-4ec7-b441-3bce817b93bc-attachment.png' type='image/png' size='65115'/>
+                <attachment title='errors' source='0eb06770-57b4-442a-a1c9-a206019d1389-attachment.txt' type='text/plain' size='510'/>
+                <attachment title='pageSource' source='f646a61e-8d0e-460e-afb7-a660deddce70-attachment.txt' type='text/plain' size='36613'/>
+            </attachments>
+            <failure>
+                <message>Error: Promise was rejected with the following reason: Error: timeout</message>
+                <stack-trace>Error: Promise was rejected with the following reason: Error: timeout</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

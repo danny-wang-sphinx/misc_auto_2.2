@@ -1,0 +1,1505 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1556113205464' stop='1556113471110'>
+    <name>user update page</name>
+    <title>user update page</title>
+    <test-cases>
+        <test-case start='1556113205465' status='passed' stop='1556113213072'>
+            <name>username is required</name>
+            <title>username is required</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113213072' status='passed' stop='1556113216569'>
+            <name>username should be >= 2</name>
+            <title>username should be >= 2</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113216570' status='passed' stop='1556113220778'>
+            <name>username should be &lt;= 32</name>
+            <title>username should be &lt;= 32</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113220778' status='passed' stop='1556113223678'>
+            <name>-abcA09 as username can be accepted</name>
+            <title>-abcA09 as username can be accepted</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113223679' status='passed' stop='1556113226062'>
+            <name>ab-cA09 as username can be accepted</name>
+            <title>ab-cA09 as username can be accepted</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113226063' status='passed' stop='1556113228505'>
+            <name>abcA09- as username can be accepted</name>
+            <title>abcA09- as username can be accepted</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113228506' status='passed' stop='1556113231284'>
+            <name>_abcA09 as username can be accepted</name>
+            <title>_abcA09 as username can be accepted</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113231284' status='passed' stop='1556113234213'>
+            <name>ab_cA09 as username can be accepted</name>
+            <title>ab_cA09 as username can be accepted</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113234213' status='passed' stop='1556113236692'>
+            <name>abcA09_ as username can be accepted</name>
+            <title>abcA09_ as username can be accepted</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113236692' status='passed' stop='1556113239781'>
+            <name>_-abcA09 as username can be accepted</name>
+            <title>_-abcA09 as username can be accepted</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113239781' status='passed' stop='1556113242275'>
+            <name>-_ab-cA09 as username can be accepted</name>
+            <title>-_ab-cA09 as username can be accepted</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113242276' status='passed' stop='1556113245368'>
+            <name>abcA09-_ as username can be accepted</name>
+            <title>abcA09-_ as username can be accepted</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113245368' status='passed' stop='1556113248058'>
+            <name>username should not accept non alphnum !abcAbc09</name>
+            <title>username should not accept non alphnum !abcAbc09</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113248059' status='passed' stop='1556113251216'>
+            <name>username should not accept non alphnum abcAbc09!</name>
+            <title>username should not accept non alphnum abcAbc09!</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113251216' status='passed' stop='1556113253834'>
+            <name>username should not accept non alphnum a!bcAbc09</name>
+            <title>username should not accept non alphnum a!bcAbc09</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113253834' status='passed' stop='1556113257206'>
+            <name>username should not accept non alphnum "abcAbc09</name>
+            <title>username should not accept non alphnum "abcAbc09</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113257208' status='passed' stop='1556113259840'>
+            <name>username should not accept non alphnum abcAbc09"</name>
+            <title>username should not accept non alphnum abcAbc09"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113259840' status='passed' stop='1556113262894'>
+            <name>username should not accept non alphnum a"bcAbc09</name>
+            <title>username should not accept non alphnum a"bcAbc09</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113262894' status='passed' stop='1556113265658'>
+            <name>username should not accept non alphnum #abcAbc09</name>
+            <title>username should not accept non alphnum #abcAbc09</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113265658' status='passed' stop='1556113269106'>
+            <name>username should not accept non alphnum abcAbc09#</name>
+            <title>username should not accept non alphnum abcAbc09#</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113269106' status='passed' stop='1556113271695'>
+            <name>username should not accept non alphnum a#bcAbc09</name>
+            <title>username should not accept non alphnum a#bcAbc09</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113271695' status='passed' stop='1556113274415'>
+            <name>username should not accept non alphnum $abcAbc09</name>
+            <title>username should not accept non alphnum $abcAbc09</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113274416' status='passed' stop='1556113277925'>
+            <name>username should not accept non alphnum abcAbc09$</name>
+            <title>username should not accept non alphnum abcAbc09$</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113277927' status='passed' stop='1556113280532'>
+            <name>username should not accept non alphnum a$bcAbc09</name>
+            <title>username should not accept non alphnum a$bcAbc09</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113280532' status='passed' stop='1556113283136'>
+            <name>username should not accept non alphnum %abcAbc09</name>
+            <title>username should not accept non alphnum %abcAbc09</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113283136' status='passed' stop='1556113285598'>
+            <name>username should not accept non alphnum abcAbc09%</name>
+            <title>username should not accept non alphnum abcAbc09%</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113285599' status='passed' stop='1556113288277'>
+            <name>username should not accept non alphnum a%bcAbc09</name>
+            <title>username should not accept non alphnum a%bcAbc09</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113288278' status='passed' stop='1556113291379'>
+            <name>username should not accept non alphnum &amp;abcAbc09</name>
+            <title>username should not accept non alphnum &amp;abcAbc09</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113291379' status='passed' stop='1556113294467'>
+            <name>username should not accept non alphnum abcAbc09&amp;</name>
+            <title>username should not accept non alphnum abcAbc09&amp;</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113294467' status='passed' stop='1556113297230'>
+            <name>username should not accept non alphnum a&amp;bcAbc09</name>
+            <title>username should not accept non alphnum a&amp;bcAbc09</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113297230' status='passed' stop='1556113300224'>
+            <name>username should not accept non alphnum 'abcAbc09</name>
+            <title>username should not accept non alphnum 'abcAbc09</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113300224' status='passed' stop='1556113302760'>
+            <name>username should not accept non alphnum abcAbc09'</name>
+            <title>username should not accept non alphnum abcAbc09'</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113302761' status='passed' stop='1556113305263'>
+            <name>username should not accept non alphnum a'bcAbc09</name>
+            <title>username should not accept non alphnum a'bcAbc09</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113305264' status='passed' stop='1556113308414'>
+            <name>username should not accept non alphnum (abcAbc09</name>
+            <title>username should not accept non alphnum (abcAbc09</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113308415' status='passed' stop='1556113311051'>
+            <name>username should not accept non alphnum abcAbc09(</name>
+            <title>username should not accept non alphnum abcAbc09(</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113311051' status='passed' stop='1556113314148'>
+            <name>username should not accept non alphnum a(bcAbc09</name>
+            <title>username should not accept non alphnum a(bcAbc09</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113314150' status='passed' stop='1556113316733'>
+            <name>username should not accept non alphnum )abcAbc09</name>
+            <title>username should not accept non alphnum )abcAbc09</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113316733' status='passed' stop='1556113320159'>
+            <name>username should not accept non alphnum abcAbc09)</name>
+            <title>username should not accept non alphnum abcAbc09)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113320159' status='passed' stop='1556113322883'>
+            <name>username should not accept non alphnum a)bcAbc09</name>
+            <title>username should not accept non alphnum a)bcAbc09</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113322884' status='passed' stop='1556113325097'>
+            <name>username should not accept non alphnum *abcAbc09</name>
+            <title>username should not accept non alphnum *abcAbc09</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113325097' status='passed' stop='1556113327740'>
+            <name>username should not accept non alphnum abcAbc09*</name>
+            <title>username should not accept non alphnum abcAbc09*</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113327740' status='passed' stop='1556113329881'>
+            <name>username should not accept non alphnum a*bcAbc09</name>
+            <title>username should not accept non alphnum a*bcAbc09</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113329881' status='passed' stop='1556113332075'>
+            <name>username should not accept non alphnum +abcAbc09</name>
+            <title>username should not accept non alphnum +abcAbc09</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113332077' status='passed' stop='1556113334273'>
+            <name>username should not accept non alphnum abcAbc09+</name>
+            <title>username should not accept non alphnum abcAbc09+</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113334273' status='passed' stop='1556113336459'>
+            <name>username should not accept non alphnum a+bcAbc09</name>
+            <title>username should not accept non alphnum a+bcAbc09</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113336459' status='passed' stop='1556113338619'>
+            <name>username should not accept non alphnum ,abcAbc09</name>
+            <title>username should not accept non alphnum ,abcAbc09</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113338621' status='passed' stop='1556113340800'>
+            <name>username should not accept non alphnum abcAbc09,</name>
+            <title>username should not accept non alphnum abcAbc09,</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113340800' status='passed' stop='1556113342978'>
+            <name>username should not accept non alphnum a,bcAbc09</name>
+            <title>username should not accept non alphnum a,bcAbc09</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113342978' status='passed' stop='1556113345126'>
+            <name>username should not accept non alphnum .abcAbc09</name>
+            <title>username should not accept non alphnum .abcAbc09</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113345126' status='passed' stop='1556113347327'>
+            <name>username should not accept non alphnum abcAbc09.</name>
+            <title>username should not accept non alphnum abcAbc09.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113347327' status='passed' stop='1556113349476'>
+            <name>username should not accept non alphnum a.bcAbc09</name>
+            <title>username should not accept non alphnum a.bcAbc09</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113349476' status='passed' stop='1556113351667'>
+            <name>username should not accept non alphnum /abcAbc09</name>
+            <title>username should not accept non alphnum /abcAbc09</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113351667' status='passed' stop='1556113353826'>
+            <name>username should not accept non alphnum abcAbc09/</name>
+            <title>username should not accept non alphnum abcAbc09/</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113353828' status='passed' stop='1556113355995'>
+            <name>username should not accept non alphnum a/bcAbc09</name>
+            <title>username should not accept non alphnum a/bcAbc09</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113355995' status='passed' stop='1556113358216'>
+            <name>username should not accept non alphnum :abcAbc09</name>
+            <title>username should not accept non alphnum :abcAbc09</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113358217' status='passed' stop='1556113360361'>
+            <name>username should not accept non alphnum abcAbc09:</name>
+            <title>username should not accept non alphnum abcAbc09:</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113360363' status='passed' stop='1556113362560'>
+            <name>username should not accept non alphnum a:bcAbc09</name>
+            <title>username should not accept non alphnum a:bcAbc09</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113362560' status='passed' stop='1556113364710'>
+            <name>username should not accept non alphnum ;abcAbc09</name>
+            <title>username should not accept non alphnum ;abcAbc09</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113364710' status='passed' stop='1556113366866'>
+            <name>username should not accept non alphnum abcAbc09;</name>
+            <title>username should not accept non alphnum abcAbc09;</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113366866' status='passed' stop='1556113369031'>
+            <name>username should not accept non alphnum a;bcAbc09</name>
+            <title>username should not accept non alphnum a;bcAbc09</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113369031' status='passed' stop='1556113371216'>
+            <name>username should not accept non alphnum &lt;abcAbc09</name>
+            <title>username should not accept non alphnum &lt;abcAbc09</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113371216' status='passed' stop='1556113373380'>
+            <name>username should not accept non alphnum abcAbc09&lt;</name>
+            <title>username should not accept non alphnum abcAbc09&lt;</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113373381' status='passed' stop='1556113375533'>
+            <name>username should not accept non alphnum a&lt;bcAbc09</name>
+            <title>username should not accept non alphnum a&lt;bcAbc09</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113375534' status='passed' stop='1556113377684'>
+            <name>username should not accept non alphnum =abcAbc09</name>
+            <title>username should not accept non alphnum =abcAbc09</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113377684' status='passed' stop='1556113379865'>
+            <name>username should not accept non alphnum abcAbc09=</name>
+            <title>username should not accept non alphnum abcAbc09=</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113379865' status='passed' stop='1556113382044'>
+            <name>username should not accept non alphnum a=bcAbc09</name>
+            <title>username should not accept non alphnum a=bcAbc09</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113382045' status='passed' stop='1556113384192'>
+            <name>username should not accept non alphnum >abcAbc09</name>
+            <title>username should not accept non alphnum >abcAbc09</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113384192' status='passed' stop='1556113386377'>
+            <name>username should not accept non alphnum abcAbc09></name>
+            <title>username should not accept non alphnum abcAbc09></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113386377' status='passed' stop='1556113388540'>
+            <name>username should not accept non alphnum a>bcAbc09</name>
+            <title>username should not accept non alphnum a>bcAbc09</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113388540' status='passed' stop='1556113390682'>
+            <name>username should not accept non alphnum ?abcAbc09</name>
+            <title>username should not accept non alphnum ?abcAbc09</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113390683' status='passed' stop='1556113392876'>
+            <name>username should not accept non alphnum abcAbc09?</name>
+            <title>username should not accept non alphnum abcAbc09?</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113392876' status='passed' stop='1556113395041'>
+            <name>username should not accept non alphnum a?bcAbc09</name>
+            <title>username should not accept non alphnum a?bcAbc09</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113395041' status='passed' stop='1556113397215'>
+            <name>username should not accept non alphnum @abcAbc09</name>
+            <title>username should not accept non alphnum @abcAbc09</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113397216' status='passed' stop='1556113399376'>
+            <name>username should not accept non alphnum abcAbc09@</name>
+            <title>username should not accept non alphnum abcAbc09@</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113399376' status='passed' stop='1556113401546'>
+            <name>username should not accept non alphnum a@bcAbc09</name>
+            <title>username should not accept non alphnum a@bcAbc09</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113401546' status='passed' stop='1556113403708'>
+            <name>username should not accept non alphnum [abcAbc09</name>
+            <title>username should not accept non alphnum [abcAbc09</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113403709' status='passed' stop='1556113405843'>
+            <name>username should not accept non alphnum abcAbc09[</name>
+            <title>username should not accept non alphnum abcAbc09[</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113405844' status='passed' stop='1556113408031'>
+            <name>username should not accept non alphnum a[bcAbc09</name>
+            <title>username should not accept non alphnum a[bcAbc09</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113408031' status='passed' stop='1556113410184'>
+            <name>username should not accept non alphnum \abcAbc09</name>
+            <title>username should not accept non alphnum \abcAbc09</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113410184' status='passed' stop='1556113412342'>
+            <name>username should not accept non alphnum abcAbc09\</name>
+            <title>username should not accept non alphnum abcAbc09\</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113412342' status='passed' stop='1556113414532'>
+            <name>username should not accept non alphnum a\bcAbc09</name>
+            <title>username should not accept non alphnum a\bcAbc09</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113414532' status='passed' stop='1556113416696'>
+            <name>username should not accept non alphnum ]abcAbc09</name>
+            <title>username should not accept non alphnum ]abcAbc09</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113416696' status='passed' stop='1556113418848'>
+            <name>username should not accept non alphnum abcAbc09]</name>
+            <title>username should not accept non alphnum abcAbc09]</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113418849' status='passed' stop='1556113421042'>
+            <name>username should not accept non alphnum a]bcAbc09</name>
+            <title>username should not accept non alphnum a]bcAbc09</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113421042' status='passed' stop='1556113423195'>
+            <name>username should not accept non alphnum ^abcAbc09</name>
+            <title>username should not accept non alphnum ^abcAbc09</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113423195' status='passed' stop='1556113425408'>
+            <name>username should not accept non alphnum abcAbc09^</name>
+            <title>username should not accept non alphnum abcAbc09^</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113425410' status='passed' stop='1556113427573'>
+            <name>username should not accept non alphnum a^bcAbc09</name>
+            <title>username should not accept non alphnum a^bcAbc09</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113427573' status='passed' stop='1556113429733'>
+            <name>username should not accept non alphnum `abcAbc09</name>
+            <title>username should not accept non alphnum `abcAbc09</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113429733' status='passed' stop='1556113431893'>
+            <name>username should not accept non alphnum abcAbc09`</name>
+            <title>username should not accept non alphnum abcAbc09`</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113431893' status='passed' stop='1556113434044'>
+            <name>username should not accept non alphnum a`bcAbc09</name>
+            <title>username should not accept non alphnum a`bcAbc09</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113434044' status='passed' stop='1556113436256'>
+            <name>username should not accept non alphnum {abcAbc09</name>
+            <title>username should not accept non alphnum {abcAbc09</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113436256' status='passed' stop='1556113438421'>
+            <name>username should not accept non alphnum abcAbc09{</name>
+            <title>username should not accept non alphnum abcAbc09{</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113438422' status='passed' stop='1556113440577'>
+            <name>username should not accept non alphnum a{bcAbc09</name>
+            <title>username should not accept non alphnum a{bcAbc09</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113440579' status='passed' stop='1556113442765'>
+            <name>username should not accept non alphnum |abcAbc09</name>
+            <title>username should not accept non alphnum |abcAbc09</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113442765' status='passed' stop='1556113444950'>
+            <name>username should not accept non alphnum abcAbc09|</name>
+            <title>username should not accept non alphnum abcAbc09|</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113444950' status='passed' stop='1556113447132'>
+            <name>username should not accept non alphnum a|bcAbc09</name>
+            <title>username should not accept non alphnum a|bcAbc09</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113447134' status='passed' stop='1556113449308'>
+            <name>username should not accept non alphnum }abcAbc09</name>
+            <title>username should not accept non alphnum }abcAbc09</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113449309' status='passed' stop='1556113451483'>
+            <name>username should not accept non alphnum abcAbc09}</name>
+            <title>username should not accept non alphnum abcAbc09}</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113451483' status='passed' stop='1556113453673'>
+            <name>username should not accept non alphnum a}bcAbc09</name>
+            <title>username should not accept non alphnum a}bcAbc09</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113453674' status='passed' stop='1556113455704'>
+            <name>password min length check</name>
+            <title>password min length check</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113455704' status='passed' stop='1556113458043'>
+            <name>password max length check</name>
+            <title>password max length check</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113458043' status='passed' stop='1556113460082'>
+            <name>password should match, without confimredpwd</name>
+            <title>password should match, without confimredpwd</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113460082' status='passed' stop='1556113462227'>
+            <name>password should match</name>
+            <title>password should match</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113462229' status='passed' stop='1556113464385'>
+            <name>password only contain upper letter should be rejected</name>
+            <title>password only contain upper letter should be rejected</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113464385' status='passed' stop='1556113466526'>
+            <name>password only contain lower letter should be rejected</name>
+            <title>password only contain lower letter should be rejected</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113466526' status='passed' stop='1556113468677'>
+            <name>password only contain upper and lower letter should be rejected</name>
+            <title>password only contain upper and lower letter should be rejected</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556113468679' status='passed' stop='1556113470848'>
+            <name>password only contain upper and number should be rejected</name>
+            <title>password only contain upper and number should be rejected</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

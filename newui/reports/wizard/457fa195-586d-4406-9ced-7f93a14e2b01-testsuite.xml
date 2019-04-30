@@ -1,0 +1,32 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1553741601646' stop='1553741666711'>
+    <name>basic wizard</name>
+    <title>basic wizard</title>
+    <test-cases>
+        <test-case start='1553741606319' status='failed' stop='1553741666710'>
+            <name>basic setup</name>
+            <title>basic setup</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='f4134eb7-6607-4c68-adf2-bdd05199592a-attachment.png' type='image/png' size='19911'/>
+                <attachment title='errors' source='5fcb23c6-7407-4cbe-bef7-ac4e780c979a-attachment.txt' type='text/plain' size='668'/>
+                <attachment title='pageSource' source='7a9e83ce-04f3-4e17-a0c1-7a0ea52dd842-attachment.txt' type='text/plain' size='45528'/>
+            </attachments>
+            <failure>
+                <message>Error: Timeout - Async callback was not invoked within 60000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)</message>
+                <stack-trace>Error: Timeout - Async callback was not invoked within 60000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)
+                    at &lt;Jasmine>
+                    at listOnTimeout (timers.js:327:15)
+                    at processTimers (timers.js:271:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

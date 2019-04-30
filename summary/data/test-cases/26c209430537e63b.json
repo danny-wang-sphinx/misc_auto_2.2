@@ -1,0 +1,57 @@
+{
+  "uid" : "26c209430537e63b",
+  "name" : "display column deselect method, result table will not show method",
+  "fullName" : "security log.display column deselect method, result table will not show method",
+  "historyId" : "c46bc258bbbd085f355fce8d7c31e9b2",
+  "time" : {
+    "start" : 1556553652889,
+    "stop" : 1556553659355,
+    "duration" : 6466
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-26"
+  }, {
+    "name" : "suite",
+    "value" : "security log"
+  }, {
+    "name" : "testClass",
+    "value" : "security log"
+  }, {
+    "name" : "testMethod",
+    "value" : "display column deselect method, result table will not show method"
+  }, {
+    "name" : "package",
+    "value" : "security log"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "26c209430537e63b.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,35 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1556551784329' stop='1556551792987'>
+    <name>protection basic settings: IP based default: protect all IPs</name>
+    <title>protection basic settings: IP based default: protect all IPs</title>
+    <test-cases>
+        <test-case start='1556551792958' status='passed' stop='1556551792961'>
+            <name>UI check mode</name>
+            <title>UI check mode</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-10'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556551792961' status='passed' stop='1556551792984'>
+            <name>curl should be reload, curl=/155655178006089</name>
+            <title>curl should be reload, curl=/155655178006089</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-10'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

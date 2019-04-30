@@ -1,0 +1,57 @@
+{
+  "uid" : "d5ead9a897a34afb",
+  "name" : "site is accessible",
+  "fullName" : "https:  change ssl ciphers to ECDHE-RSA-AES256-GCM-SHA384.site is accessible",
+  "historyId" : "a11bbab77ab40811b1ae19fe358e858b",
+  "time" : {
+    "start" : 1556551736319,
+    "stop" : 1556551736363,
+    "duration" : 44
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-8"
+  }, {
+    "name" : "suite",
+    "value" : "https:  change ssl ciphers to ECDHE-RSA-AES256-GCM-SHA384"
+  }, {
+    "name" : "testClass",
+    "value" : "https:  change ssl ciphers to ECDHE-RSA-AES256-GCM-SHA384"
+  }, {
+    "name" : "testMethod",
+    "value" : "site is accessible"
+  }, {
+    "name" : "package",
+    "value" : "https:  change ssl ciphers to ECDHE-RSA-AES256-GCM-SHA384"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d5ead9a897a34afb.json",
+  "parameterValues" : [ "chrome" ]
+}

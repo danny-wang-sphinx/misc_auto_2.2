@@ -1,0 +1,57 @@
+{
+  "uid" : "e1fc84467ea1ef03",
+  "name" : "check conf file",
+  "fullName" : "set maxium upload file size to 500.check conf file",
+  "historyId" : "ea31ab6750fc3977721a650d10a6e952",
+  "time" : {
+    "start" : 1556554025054,
+    "stop" : 1556554025077,
+    "duration" : 23
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-29"
+  }, {
+    "name" : "suite",
+    "value" : "set maxium upload file size to 500"
+  }, {
+    "name" : "testClass",
+    "value" : "set maxium upload file size to 500"
+  }, {
+    "name" : "testMethod",
+    "value" : "check conf file"
+  }, {
+    "name" : "package",
+    "value" : "set maxium upload file size to 500"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e1fc84467ea1ef03.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,35 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1556554764265' stop='1556554789211'>
+    <name>Log output: formatted log set udp: error log</name>
+    <title>Log output: formatted log set udp: error log</title>
+    <test-cases>
+        <test-case start='1556554774007' status='passed' stop='1556554777047'>
+            <name>check ui: protocol and server and srouce</name>
+            <title>check ui: protocol and server and srouce</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-48'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556554777048' status='passed' stop='1556554789210'>
+            <name>check only abnormal log are outputed to logserver</name>
+            <title>check only abnormal log are outputed to logserver</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-48'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

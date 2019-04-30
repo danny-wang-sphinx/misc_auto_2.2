@@ -1,0 +1,57 @@
+{
+  "uid" : "40154774331e5e80",
+  "name" : "check conf file min and max level include crack false",
+  "fullName" : "protection web standard security scheme: crack  false.check conf file min and max level include crack false",
+  "historyId" : "fd5d91df9f918edee288c266c042cded",
+  "time" : {
+    "start" : 1556551440407,
+    "stop" : 1556551440432,
+    "duration" : 25
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "protection web standard security scheme: crack  false"
+  }, {
+    "name" : "testClass",
+    "value" : "protection web standard security scheme: crack  false"
+  }, {
+    "name" : "testMethod",
+    "value" : "check conf file min and max level include crack false"
+  }, {
+    "name" : "package",
+    "value" : "protection web standard security scheme: crack  false"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "40154774331e5e80.json",
+  "parameterValues" : [ "chrome" ]
+}

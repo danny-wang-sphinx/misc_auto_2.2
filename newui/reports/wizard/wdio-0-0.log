@@ -1,0 +1,548 @@
+2019-04-25T04:27:13.614Z DEBUG wdio-config: @wdio/sync found, running tests synchronous
+2019-04-25T04:27:13.756Z INFO wdio-local-runner: Run worker command: run
+2019-04-25T04:27:13.831Z DEBUG wdio-local-runner:utils: init remote session
+2019-04-25T04:27:13.875Z INFO webdriver: [POST] http://192.168.5.103:4444/wd/hub/session
+2019-04-25T04:27:13.875Z INFO webdriver: DATA { capabilities:
+   { alwaysMatch: { browserName: 'chrome' }, firstMatch: [ {} ] },
+  desiredCapabilities: { browserName: 'chrome' } }
+2019-04-25T04:27:15.073Z INFO webdriver: COMMAND navigateTo("http://192.168.5.18:20146/")
+2019-04-25T04:27:15.074Z INFO webdriver: [POST] http://192.168.5.103:4444/wd/hub/session/55bc3249952153ea5f8f6037583bb529/url
+2019-04-25T04:27:15.074Z INFO webdriver: DATA { url: 'http://192.168.5.18:20146/' }
+2019-04-25T04:27:16.578Z WARN [Jasmine]: Start testing basic wizard basic setup successful, the browser url should starts with https and show login page
+2019-04-25T04:27:16.579Z INFO webdriver: COMMAND getUrl()
+2019-04-25T04:27:16.579Z INFO webdriver: [GET] http://192.168.5.103:4444/wd/hub/session/55bc3249952153ea5f8f6037583bb529/url
+2019-04-25T04:27:16.617Z INFO webdriver: RESULT https://192.168.5.18:20145/login.html?fail-no-session
+2019-04-25T04:27:16.618Z INFO webdriver: COMMAND getUrl()
+2019-04-25T04:27:16.618Z INFO webdriver: [GET] http://192.168.5.103:4444/wd/hub/session/55bc3249952153ea5f8f6037583bb529/url
+2019-04-25T04:27:16.629Z INFO webdriver: RESULT https://192.168.5.18:20145/login.html?fail-no-session
+2019-04-25T04:27:16.639Z INFO webdriver: COMMAND getLogTypes()
+2019-04-25T04:27:16.639Z INFO webdriver: [GET] http://192.168.5.103:4444/wd/hub/session/55bc3249952153ea5f8f6037583bb529/log/types
+2019-04-25T04:27:16.642Z INFO webdriver: RESULT [ 'server', 'browser', 'driver' ]
+2019-04-25T04:27:16.642Z DEBUG wdio-runner: Fetching logs for server, browser, driver
+2019-04-25T04:27:16.643Z INFO webdriver: COMMAND getLogs("server")
+2019-04-25T04:27:16.643Z INFO webdriver: [POST] http://192.168.5.103:4444/wd/hub/session/55bc3249952153ea5f8f6037583bb529/log
+2019-04-25T04:27:16.643Z INFO webdriver: DATA { type: 'server' }
+2019-04-25T04:27:16.643Z INFO webdriver: COMMAND getLogs("browser")
+2019-04-25T04:27:16.643Z INFO webdriver: [POST] http://192.168.5.103:4444/wd/hub/session/55bc3249952153ea5f8f6037583bb529/log
+2019-04-25T04:27:16.643Z INFO webdriver: DATA { type: 'browser' }
+2019-04-25T04:27:16.644Z INFO webdriver: COMMAND getLogs("driver")
+2019-04-25T04:27:16.644Z INFO webdriver: [POST] http://192.168.5.103:4444/wd/hub/session/55bc3249952153ea5f8f6037583bb529/log
+2019-04-25T04:27:16.644Z INFO webdriver: DATA { type: 'driver' }
+2019-04-25T04:27:16.648Z INFO webdriver: RESULT [ { level: 'INFO',
+    message: 'Capabilities are: {\n  "browserName": "chrome"\n}',
+    timestamp: 1556166433915 },
+  { level: 'INFO',
+    message:
+     'Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)',
+    timestamp: 1556166433918 },
+  { level: 'INFO',
+    message: 'Detected dialect: OSS',
+    timestamp: 1556166434994 },
+  { level: 'INFO',
+    message:
+     'Started new session 55bc3249952153ea5f8f6037583bb529 (org.openqa.selenium.chrome.ChromeDriverService)',
+    timestamp: 1556166435019 } ]
+2019-04-25T04:27:16.653Z INFO webdriver: RESULT []
+2019-04-25T04:27:16.660Z INFO webdriver: RESULT [ { level: 'WARNING',
+    message:
+     'deprecation 0 The devicemotion event is deprecated on insecure origins, and support will be removed in the future. You should consider switching your application to a secure origin, such as HTTPS. See https://goo.gl/rStTGz for more details.',
+    source: 'deprecation',
+    timestamp: 1556166435273 },
+  { level: 'WARNING',
+    message:
+     'deprecation 0 The deviceorientation event is deprecated on insecure origins, and support will be removed in the future. You should consider switching your application to a secure origin, such as HTTPS. See https://goo.gl/rStTGz for more details.',
+    source: 'deprecation',
+    timestamp: 1556166435274 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435487 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435487 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435487 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435488 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435488 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435488 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435488 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435489 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435491 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435492 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435492 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435492 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435493 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435493 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435497 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435499 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435499 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435499 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435499 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435499 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435500 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435500 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435500 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435500 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435501 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435501 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435501 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435503 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435503 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435505 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435505 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435505 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435506 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435506 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435506 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435506 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435507 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435507 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435507 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435507 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435508 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435508 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435508 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435508 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435508 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435509 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435509 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435509 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435509 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435510 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435510 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435510 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435510 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435510 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435511 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435511 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435513 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435513 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435513 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435514 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435514 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435514 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435514 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435514 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435514 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435514 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435514 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435514 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435514 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435515 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435515 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435515 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435515 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435515 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435515 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435515 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435515 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435516 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435516 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435516 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435516 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435517 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435517 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435517 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435517 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435518 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435518 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435518 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435518 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435518 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435519 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435519 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435519 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435521 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435521 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435522 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435522 },
+  { level: 'WARNING',
+    message:
+     'rendering 0 WebGL: INVALID_ENUM: getParameter: invalid parameter name',
+    source: 'rendering',
+    timestamp: 1556166435522 },
+  ... 417 more items ]
+2019-04-25T04:27:16.662Z INFO webdriver: COMMAND deleteSession()
+2019-04-25T04:27:16.662Z INFO webdriver: [DELETE] http://192.168.5.103:4444/wd/hub/session/55bc3249952153ea5f8f6037583bb529

@@ -1,0 +1,57 @@
+{
+  "uid" : "5695e0a4a00735da",
+  "name" : "check ui",
+  "fullName" : "set error template {\"400\":true,\"403\":true,\"404\":true,\"500\":true,\"502\":true,\"504\":true}.check ui",
+  "historyId" : "a4942817b624830fde6c8c07be2249de",
+  "time" : {
+    "start" : 1556552884957,
+    "stop" : 1556552884958,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-19"
+  }, {
+    "name" : "suite",
+    "value" : "set error template {\"400\":true,\"403\":true,\"404\":true,\"500\":true,\"502\":true,\"504\":true}"
+  }, {
+    "name" : "testClass",
+    "value" : "set error template {\"400\":true,\"403\":true,\"404\":true,\"500\":true,\"502\":true,\"504\":true}"
+  }, {
+    "name" : "testMethod",
+    "value" : "check ui"
+  }, {
+    "name" : "package",
+    "value" : "set error template {\"400\":true,\"403\":true,\"404\":true,\"500\":true,\"502\":true,\"504\":true}"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5695e0a4a00735da.json",
+  "parameterValues" : [ "chrome" ]
+}

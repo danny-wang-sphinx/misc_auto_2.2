@@ -1,0 +1,57 @@
+{
+  "uid" : "ed24c82d8415fc45",
+  "name" : "check uistatus",
+  "fullName" : "Profile basic setting: health exam  HTTP.check uistatus",
+  "historyId" : "626e940eabb1c0e5190338db1cf47327",
+  "time" : {
+    "start" : 1556553805659,
+    "stop" : 1556553808730,
+    "duration" : 3071
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-27"
+  }, {
+    "name" : "suite",
+    "value" : "Profile basic setting: health exam  HTTP"
+  }, {
+    "name" : "testClass",
+    "value" : "Profile basic setting: health exam  HTTP"
+  }, {
+    "name" : "testMethod",
+    "value" : "check uistatus"
+  }, {
+    "name" : "package",
+    "value" : "Profile basic setting: health exam  HTTP"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ed24c82d8415fc45.json",
+  "parameterValues" : [ "chrome" ]
+}

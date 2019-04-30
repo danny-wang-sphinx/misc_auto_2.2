@@ -1,0 +1,57 @@
+{
+  "uid" : "c41ca924de383015",
+  "name" : "UI check mode",
+  "fullName" : "protection basic settings: IP based off: one subnet + one IP.UI check mode",
+  "historyId" : "7fbe98551ad44402880f07ffb1b81ccc",
+  "time" : {
+    "start" : 1556554373240,
+    "stop" : 1556554373240,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-38"
+  }, {
+    "name" : "suite",
+    "value" : "protection basic settings: IP based off: one subnet + one IP"
+  }, {
+    "name" : "testClass",
+    "value" : "protection basic settings: IP based off: one subnet + one IP"
+  }, {
+    "name" : "testMethod",
+    "value" : "UI check mode"
+  }, {
+    "name" : "package",
+    "value" : "protection basic settings: IP based off: one subnet + one IP"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c41ca924de383015.json",
+  "parameterValues" : [ "chrome" ]
+}

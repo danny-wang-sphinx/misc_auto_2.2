@@ -1,0 +1,57 @@
+{
+  "uid" : "7980bcf0a51c22ad",
+  "name" : "previous entry point should be Reload",
+  "fullName" : "protection basic settings: set entry point change to default.previous entry point should be Reload",
+  "historyId" : "e7664ad9b8add36260d6767688e5df63",
+  "time" : {
+    "start" : 1556551481855,
+    "stop" : 1556551481877,
+    "duration" : 22
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-4"
+  }, {
+    "name" : "suite",
+    "value" : "protection basic settings: set entry point change to default"
+  }, {
+    "name" : "testClass",
+    "value" : "protection basic settings: set entry point change to default"
+  }, {
+    "name" : "testMethod",
+    "value" : "previous entry point should be Reload"
+  }, {
+    "name" : "package",
+    "value" : "protection basic settings: set entry point change to default"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7980bcf0a51c22ad.json",
+  "parameterValues" : [ "chrome" ]
+}

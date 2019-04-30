@@ -1,0 +1,85 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1553707546311' stop='1553707631552'>
+    <name>Prepare for user account</name>
+    <title>Prepare for user account</title>
+    <test-cases>
+        <test-case start='1553707546312' status='passed' stop='1553707561927'>
+            <name>enable support account</name>
+            <title>enable support account</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1553707561928' status='passed' stop='1553707572163'>
+            <name>create account if not exists admin1</name>
+            <title>create account if not exists admin1</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1553707572163' status='passed' stop='1553707582945'>
+            <name>create account if not exists viewer</name>
+            <title>create account if not exists viewer</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1553707582947' status='passed' stop='1553707595467'>
+            <name>create account if not exists noEnable</name>
+            <title>create account if not exists noEnable</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1553707595467' status='failed' stop='1553707631551'>
+            <name>support account change password to fixed pwd</name>
+            <title>support account change password to fixed pwd</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='af0b4680-673b-48a6-b0d2-da21567f3b44-attachment.png' type='image/png' size='140362'/>
+                <attachment title='errors' source='8f18d988-c6e6-4a2d-b8f6-9d4683d9737d-attachment.txt' type='text/plain' size='502'/>
+                <attachment title='pageSource' source='8dda9234-2177-40dd-baf2-fe7ab27e064f-attachment.txt' type='text/plain' size='25292'/>
+            </attachments>
+            <failure>
+                <message>Error: Promise was rejected with the following reason: Error: timeout</message>
+                <stack-trace>Error: Promise was rejected with the following reason: Error: timeout</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

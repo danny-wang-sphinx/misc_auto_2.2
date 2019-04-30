@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1556119003435' stop='1556119005063'>
+    <name>basic wizard</name>
+    <title>basic wizard</title>
+    <test-cases>
+        <test-case start='1556119005022' status='passed' stop='1556119005062'>
+            <name>basic setup successful, the browser url should starts with https and show login page</name>
+            <title>basic setup successful, the browser url should starts with https and show login page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

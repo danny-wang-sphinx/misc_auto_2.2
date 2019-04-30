@@ -1,0 +1,57 @@
+{
+  "uid" : "41f9c46c530162b",
+  "name" : "cookie token should be same as domain listen port",
+  "fullName" : "protection port offset  disable.cookie token should be same as domain listen port",
+  "historyId" : "5452b9ca1e7e45650a0a6d0def26e45a",
+  "time" : {
+    "start" : 1556551927715,
+    "stop" : 1556551927744,
+    "duration" : 29
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-13"
+  }, {
+    "name" : "suite",
+    "value" : "protection port offset  disable"
+  }, {
+    "name" : "testClass",
+    "value" : "protection port offset  disable"
+  }, {
+    "name" : "testMethod",
+    "value" : "cookie token should be same as domain listen port"
+  }, {
+    "name" : "package",
+    "value" : "protection port offset  disable"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "41f9c46c530162b.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,4 @@
+{"level":"INFO","message":"Capabilities are: {\n  \"browserName\": \"chrome\"\n}","timestamp":1556552079007}
+{"level":"INFO","message":"Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)","timestamp":1556552079007}
+{"level":"INFO","message":"Detected dialect: OSS","timestamp":1556552079923}
+{"level":"INFO","message":"Started new session 656b609a11d44b54d6128660bafe21b0 (org.openqa.selenium.chrome.ChromeDriverService)","timestamp":1556552079933}

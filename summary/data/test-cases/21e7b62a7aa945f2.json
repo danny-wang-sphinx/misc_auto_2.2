@@ -1,0 +1,57 @@
+{
+  "uid" : "21e7b62a7aa945f2",
+  "name" : "ui check",
+  "fullName" : "protection no script  true.ui check",
+  "historyId" : "c7a54dce7637a6e5ce309fdf828b385d",
+  "time" : {
+    "start" : 1556551887474,
+    "stop" : 1556551887477,
+    "duration" : 3
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-12"
+  }, {
+    "name" : "suite",
+    "value" : "protection no script  true"
+  }, {
+    "name" : "testClass",
+    "value" : "protection no script  true"
+  }, {
+    "name" : "testMethod",
+    "value" : "ui check"
+  }, {
+    "name" : "package",
+    "value" : "protection no script  true"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "21e7b62a7aa945f2.json",
+  "parameterValues" : [ "chrome" ]
+}

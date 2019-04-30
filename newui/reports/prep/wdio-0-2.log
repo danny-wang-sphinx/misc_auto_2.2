@@ -1,0 +1,50 @@
+2019-04-25T09:39:00.588Z WARN webdriver: Request failed due to session not created: Chrome version must be between 70 and 73
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 895 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Dannyde-MacBook-Pro.local', ip: '192.168.5.103', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_171'
+Driver info: driver.version: unknown
+2019-04-25T09:39:01.626Z WARN webdriver: Request failed due to session not created: Chrome version must be between 70 and 73
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 979 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Dannyde-MacBook-Pro.local', ip: '192.168.5.103', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_171'
+Driver info: driver.version: unknown
+2019-04-25T09:39:02.612Z WARN webdriver: Request failed due to session not created: Chrome version must be between 70 and 73
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 932 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Dannyde-MacBook-Pro.local', ip: '192.168.5.103', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_171'
+Driver info: driver.version: unknown
+2019-04-25T09:39:03.575Z ERROR webdriver: Request failed due to session not created: session not created: Chrome version must be between 70 and 73
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 908 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Dannyde-MacBook-Pro.local', ip: '192.168.5.103', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_171'
+Driver info: driver.version: unknown
+    at getErrorFromResponseBody (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/node_modules/webdriver/build/utils.js:342:10)
+    at Request._callback (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/node_modules/webdriver/build/request.js:113:64)
+    at Request.self.callback (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/node_modules/webdriver/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:197:13)
+    at Request.EventEmitter.emit (domain.js:446:20)
+    at Request.<anonymous> (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/node_modules/webdriver/node_modules/request/request.js:1161:10)
+    at Request.emit (events.js:197:13)
+    at Request.EventEmitter.emit (domain.js:446:20)
+    at IncomingMessage.<anonymous> (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/node_modules/webdriver/node_modules/request/request.js:1083:12)
+    at Object.onceWrapper (events.js:285:13)
+2019-04-25T09:39:03.576Z ERROR wdio-runner: session not created: session not created: Chrome version must be between 70 and 73
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 908 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Dannyde-MacBook-Pro.local', ip: '192.168.5.103', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_171'
+Driver info: driver.version: unknown
+    at getErrorFromResponseBody (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/node_modules/webdriver/build/utils.js:342:10)
+    at Request._callback (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/node_modules/webdriver/build/request.js:113:64)
+    at Request.self.callback (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/node_modules/webdriver/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:197:13)
+    at Request.EventEmitter.emit (domain.js:446:20)
+    at Request.<anonymous> (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/node_modules/webdriver/node_modules/request/request.js:1161:10)
+    at Request.emit (events.js:197:13)
+    at Request.EventEmitter.emit (domain.js:446:20)
+    at IncomingMessage.<anonymous> (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/node_modules/webdriver/node_modules/request/request.js:1083:12)
+    at Object.onceWrapper (events.js:285:13)

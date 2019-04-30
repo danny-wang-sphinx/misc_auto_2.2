@@ -1,0 +1,35 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1556554177802' stop='1556554201311'>
+    <name>Log output: raw set off</name>
+    <title>Log output: raw set off</title>
+    <test-cases>
+        <test-case start='1556554186891' status='passed' stop='1556554189145'>
+            <name>check ui: enabled status</name>
+            <title>check ui: enabled status</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-35'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556554189145' status='passed' stop='1556554201311'>
+            <name>check the raw log is outputed to logserver</name>
+            <title>check the raw log is outputed to logserver</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-35'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

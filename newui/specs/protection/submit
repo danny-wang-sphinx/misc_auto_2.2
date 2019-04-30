@@ -1,0 +1,108 @@
+const ProfilePage = require('../../pages/profile')
+const specUtil = require('../../specUtils/commonUtil')
+const profileUtil = require('../../specUtils/profile')
+const protectionSettingUtil = require('../../specUtils/protection.settings')
+const confUtil = require('../../confUtils')
+const profileData = require('../../data/profile')
+const defaultData = require('../../data/dapConf.js')
+const relayServer = require('../../data/testbed').relayServer
+
+describe('advanced setting: request and response headers ', ()=> {
+  const echoProfile = profileData.echoProfile
+  const defaultProfile = defaultData.defaultProfile
+  let profilePage = new ProfilePage(),uiStatus
+  
+  beforeAll(() => { setup()})
+  afterAll(() => {profileUtil.setupProfile(false,profileData.defaultProfile)})
+
+  describe('default value',() => {
+    let reqData = profileData.defaultRequestHeaderValues
+    let resData = profileData.defaultResponseHeaderValues
+    beforeAll(() => setAndSave())
+    it('check uistatus', () => {
+      expect(uiStatus.req).toEqual(reqData)
+      expect(uiStatus.resp).toEqual(resData)
+    })
+    it(`check response headers`, () => {
+      let header = _curl().header
+      profilePage.actionLogger.warn('curlResult header', header)
+      expect(header).not.toContain('X-XSS-Protection')
+      expect(header).not.toContain('X-Content-Type-Options')
+      expect(header).not.toContain('X-Frame-Options')
+    })
+    it(`client sends xff and xrealip, check request headers upstream received`, () => {
+      let header = _curl().body
+      profilePage.actionLogger.warn('curlResult header', header)
+      expect(header).not.toContain('Accept-Encoding')
+      verifyFixedRequestHeader(header)
+    })
+    it(`client doesn't send xff and xrealip, check request headers upstream received`, () => {
+      let header = specUtil.curlResource(echoProfile.protectedSite, '/').body
+      profilePage.actionLogger.warn('curlResult header', header)
+      expect(header).not.toContain(`"Accept-Encoding"`)
+      expect(header).toContain(`"WL-Proxy-Client-IP"`)
+      expect(header).toContain(`"X-Real-IP"`)
+      expect(header).toContain(`"X-Forwarded-For"`)
+    })
+    it('check p3p value from conf file', () => {
+      let res = getP3PFromConf()
+      expect(res.header).toBe('off')
+    })
+  })
+  describe('all enabled with default value',() => {
+    let reqData = profileData.requestHeaderAllEnable
+    let resData = profileData.responseHeaderAllEnable
+    beforeAll(() => setAndSave(reqData,resData))
+    it('check uistatus', () => {
+      expect(uiStatus.req).toEqual(reqData)
+      expect(uiStatus.resp).toEqual(resData)
+    })
+    it(`check response headers`, () => {
+      let header = _curl().header
+      profilePage.actionLogger.warn('curlResult header', header)
+      expect(header).toContain('X-Frame-Options: SAMEORIGIN')
+      expect(header).toContain('X-Content-Type-Options: nosniff')
+      expect(header).toContain('X-XSS-Protection: 1; mode=block')
+    })
+  
+    it(`check request headers upstream received`, () => {
+      let header = _curl().body
+      profilePage.actionLogger.warn('curlResult header', header)
+      expect(header).not.toContain('Accept-Encoding')
+      console.log(header)
+      expect(header).toContain(`"Host": "${echoProfile.fqdn}:${defaultProfile.port}"`)
+      verifyFixedRequestHeader(header)
+    })
+    it('check p3p value from conf file', () => {
+      let res = getP3PFromConf()
+      expect(res.header).toBe('on')
+      expect(res.headerValue.CP).toEqual(`CP="${resData['p3p'].value}"`)
+    })
+  })
+  
+  function getUiStatus() {
+    profileUtil.openPageAndToProfilePage(echoProfile.name)
+    let resp = profilePage.getResponseHeaderTableValues()
+    let req = profilePage.getRequestHeaderTableValues()
+    return {resp,req}
+  }
+  function setup() {
+    protectionSettingUtil.setupSrcIp()
+    profileUtil.setupProfile(false,echoProfile)
+  }
+  function setAndSave(reqHeaderObj,resHeaderObj) {
+    profileUtil.setRequestAndResponseHeader(echoProfile.name,reqHeaderObj,resHeaderObj)
+    uiStatus = getUiStatus()
+  }
+  function _curl() {
+    return specUtil.curlResource(echoProfile.protectedSite, '/','',profileData.fakeIpOptions)
+  }
+  function getP3PFromConf() {
+    return confUtil.getP3P(relayServer,echoProfile)
+  }
+  function verifyFixedRequestHeader(header) {
+    expect(header).toContain(`"X-Real-IP": "1.2.3.4"`)
+    expect(header).toContain(`"X-Forwarded-For": "1.1.1.1, 2.2.2.2, 3.3.3.3, `)
+    expect(header).toContain(`"WL-Proxy-Client-IP": "1.2.3.4"`)
+  }
+})

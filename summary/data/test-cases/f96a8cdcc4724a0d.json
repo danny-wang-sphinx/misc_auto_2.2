@@ -1,0 +1,57 @@
+{
+  "uid" : "f96a8cdcc4724a0d",
+  "name" : "can disable Viewer",
+  "fullName" : "created admin account management.can disable Viewer",
+  "historyId" : "44a54ac546cac5ad8ea495cc71cd05dd",
+  "time" : {
+    "start" : 1556553548180,
+    "stop" : 1556553560916,
+    "duration" : 12736
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-22"
+  }, {
+    "name" : "suite",
+    "value" : "created admin account management"
+  }, {
+    "name" : "testClass",
+    "value" : "created admin account management"
+  }, {
+    "name" : "testMethod",
+    "value" : "can disable Viewer"
+  }, {
+    "name" : "package",
+    "value" : "created admin account management"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f96a8cdcc4724a0d.json",
+  "parameterValues" : [ "chrome" ]
+}

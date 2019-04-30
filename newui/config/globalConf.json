@@ -1,0 +1,26 @@
+{
+  "dapServer": "192.168.5.18",
+  "seleniumHubServer": "192.168.5.103",
+  "controlServerIp": "192.168.5.103",
+  "defaultProfile": {
+    "name": "a",
+    "fqdn": "a.com",
+    "port": 7000,
+    "protocol": "http",
+    "upstreams": [ 
+      { "ip": "192.168.5.1", "port": "7000", "protocol": "http" }
+    ]
+  },
+  "accounts" : {
+    "admin":{ "username": "admin", "pwd": "Admin123" ,"type":"Admin", "enabled": true, "typeValue": "1"},
+    "createdAdmin":{ "username": "admin1", "pwd": "Admin123" ,"type":"Admin", "enabled": true, "typeValue": "1"},
+    "support":{ "username": "support", "pwd": "Support123" ,"type": "Support", "enabled": true,"typeValue": "2"},
+    "viewer":{ "username": "viewer", "pwd": "Viewer123","type": "Viewer", "enabled": true ,"typeValue": "3"},
+    "noEnable":{ "username": "noEnable", "pwd": "Viewer123","type": "Viewer", "enabled": false,"typeValue": "3"}
+  },
+  "network": {
+    "defaultDns": "8.8.8.8",
+    "defaultNtp": "time.google.com"
+  },
+  "defaultTimeZone": "Eastern Time (US)"
+}

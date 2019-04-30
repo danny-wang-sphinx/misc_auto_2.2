@@ -1,0 +1,57 @@
+{
+  "uid" : "ccc330720024e208",
+  "name" : "check ui status",
+  "fullName" : "Network settings: dns.check ui status",
+  "historyId" : "8e00b1aba2b5a41b84a7c4cc19e1d434",
+  "time" : {
+    "start" : 1556554102450,
+    "stop" : 1556554103240,
+    "duration" : 790
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-33"
+  }, {
+    "name" : "suite",
+    "value" : "Network settings: dns"
+  }, {
+    "name" : "testClass",
+    "value" : "Network settings: dns"
+  }, {
+    "name" : "testMethod",
+    "value" : "check ui status"
+  }, {
+    "name" : "package",
+    "value" : "Network settings: dns"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ccc330720024e208.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,57 @@
+{
+  "uid" : "e9714651b5c151c8",
+  "name" : "wrong password should return Incorrect username or password",
+  "fullName" : "login should be failed when.wrong password should return Incorrect username or password",
+  "historyId" : "b9d6407a9e9151aa5923999ad4f8f714",
+  "time" : {
+    "start" : 1556554578637,
+    "stop" : 1556554579578,
+    "duration" : 941
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-45"
+  }, {
+    "name" : "suite",
+    "value" : "login should be failed when"
+  }, {
+    "name" : "testClass",
+    "value" : "login should be failed when"
+  }, {
+    "name" : "testMethod",
+    "value" : "wrong password should return Incorrect username or password"
+  }, {
+    "name" : "package",
+    "value" : "login should be failed when"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e9714651b5c151c8.json",
+  "parameterValues" : [ "chrome" ]
+}

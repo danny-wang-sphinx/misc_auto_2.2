@@ -1,0 +1,57 @@
+{
+  "uid" : "55ac4f97342faef8",
+  "name" : "check post nonwhitelist will be blocking template",
+  "fullName" : "protection invalid request policy:  blocking page: skip, essential protection cannot trigger blocking page.check post nonwhitelist will be blocking template",
+  "historyId" : "d62812cf1ddaf3ef9cee87b1cc870a58",
+  "time" : {
+    "start" : 1556551771836,
+    "stop" : 1556551771836,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-9"
+  }, {
+    "name" : "suite",
+    "value" : "protection invalid request policy:  blocking page: skip, essential protection cannot trigger blocking page"
+  }, {
+    "name" : "testClass",
+    "value" : "protection invalid request policy:  blocking page: skip, essential protection cannot trigger blocking page"
+  }, {
+    "name" : "testMethod",
+    "value" : "check post nonwhitelist will be blocking template"
+  }, {
+    "name" : "package",
+    "value" : "protection invalid request policy:  blocking page: skip, essential protection cannot trigger blocking page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "55ac4f97342faef8.json",
+  "parameterValues" : [ "chrome" ]
+}

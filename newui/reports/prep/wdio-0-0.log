@@ -1,0 +1,118 @@
+2019-04-25T09:49:26.514Z WARN [Jasmine]: Start testing Prepare for user account enable support account
+2019-04-25T09:49:27.500Z WARN [PageAction]: isLoginUrl, true, https://192.168.5.18:20145/login.html?fail-no-session
+2019-04-25T09:49:27.515Z WARN [PageAction]: Login admin
+2019-04-25T09:49:29.308Z WARN [PageAction]: logged in admin
+2019-04-25T09:49:29.583Z WARN [PageAction]: wait for boxtitle Account List
+2019-04-25T09:49:29.614Z WARN [PageAction]: wait for usertable spiner gone
+2019-04-25T09:49:29.925Z WARN [PageAction]: wait for boxtitle Account List
+2019-04-25T09:49:29.948Z WARN [PageAction]: wait for usertable spiner gone
+2019-04-25T09:49:31.413Z WARN [PageAction]: wait for boxtitle Account List
+2019-04-25T09:49:31.435Z WARN [PageAction]: wait for usertable spiner gone
+2019-04-25T09:49:32.108Z WARN webdriver: Request failed due to no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=74.0.3729.108)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Mac OS X 10.14.4 x86_64)
+2019-04-25T09:49:32.111Z WARN webdriver: Request failed due to no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=74.0.3729.108)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Mac OS X 10.14.4 x86_64)
+2019-04-25T09:49:32.113Z WARN webdriver: Request failed due to no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=74.0.3729.108)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Mac OS X 10.14.4 x86_64)
+2019-04-25T09:49:32.115Z ERROR webdriver: Request failed due to Error: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=74.0.3729.108)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Mac OS X 10.14.4 x86_64)
+    at getErrorFromResponseBody (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/node_modules/webdriver/build/utils.js:342:10)
+    at Request._callback (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/node_modules/webdriver/build/request.js:113:64)
+    at Request.self.callback (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/node_modules/webdriver/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:197:13)
+    at Request.EventEmitter.emit (domain.js:446:20)
+    at Request.<anonymous> (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/node_modules/webdriver/node_modules/request/request.js:1161:10)
+    at Request.emit (events.js:197:13)
+    at Request.EventEmitter.emit (domain.js:446:20)
+    at IncomingMessage.<anonymous> (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/node_modules/webdriver/node_modules/request/request.js:1083:12)
+    at Object.onceWrapper (events.js:285:13)
+2019-04-25T09:49:32.116Z ERROR wdio-sync: Error: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=74.0.3729.108)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Mac OS X 10.14.4 x86_64)
+    at getErrorFromResponseBody (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/node_modules/webdriver/build/utils.js:342:10)
+    at Request._callback (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/node_modules/webdriver/build/request.js:113:64)
+    at Request.self.callback (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/node_modules/webdriver/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:197:13)
+    at Request.EventEmitter.emit (domain.js:446:20)
+    at Request.<anonymous> (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/node_modules/webdriver/node_modules/request/request.js:1161:10)
+    at Request.emit (events.js:197:13)
+    at Request.EventEmitter.emit (domain.js:446:20)
+    at IncomingMessage.<anonymous> (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/node_modules/webdriver/node_modules/request/request.js:1083:12)
+    at Object.onceWrapper (events.js:285:13)
+2019-04-25T09:49:32.118Z WARN [Jasmine]: Start testing Prepare for user account support account change password to fixed pwd
+2019-04-25T09:49:32.123Z WARN webdriver: Request failed due to no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=74.0.3729.108)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Mac OS X 10.14.4 x86_64)
+2019-04-25T09:49:32.127Z WARN webdriver: Request failed due to no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=74.0.3729.108)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Mac OS X 10.14.4 x86_64)
+2019-04-25T09:49:32.132Z WARN webdriver: Request failed due to no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=74.0.3729.108)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Mac OS X 10.14.4 x86_64)
+2019-04-25T09:49:32.136Z ERROR webdriver: Request failed due to Error: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=74.0.3729.108)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Mac OS X 10.14.4 x86_64)
+    at getErrorFromResponseBody (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/node_modules/webdriver/build/utils.js:342:10)
+    at Request._callback (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/node_modules/webdriver/build/request.js:113:64)
+    at Request.self.callback (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/node_modules/webdriver/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:197:13)
+    at Request.EventEmitter.emit (domain.js:446:20)
+    at Request.<anonymous> (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/node_modules/webdriver/node_modules/request/request.js:1161:10)
+    at Request.emit (events.js:197:13)
+    at Request.EventEmitter.emit (domain.js:446:20)
+    at IncomingMessage.<anonymous> (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/node_modules/webdriver/node_modules/request/request.js:1083:12)
+    at Object.onceWrapper (events.js:285:13)
+2019-04-25T09:49:32.137Z WARN [PageAction]: support pwd has been changed, oldpwd is { isDefaultPwd: false, pwd: '' }
+2019-04-25T09:49:32.147Z WARN webdriver: Request failed due to no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=74.0.3729.108)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Mac OS X 10.14.4 x86_64)
+2019-04-25T09:49:32.150Z WARN webdriver: Request failed due to no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=74.0.3729.108)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Mac OS X 10.14.4 x86_64)
+2019-04-25T09:49:32.152Z WARN webdriver: Request failed due to no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=74.0.3729.108)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Mac OS X 10.14.4 x86_64)
+2019-04-25T09:49:32.155Z ERROR webdriver: Request failed due to Error: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=74.0.3729.108)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Mac OS X 10.14.4 x86_64)
+    at getErrorFromResponseBody (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/node_modules/webdriver/build/utils.js:342:10)
+    at Request._callback (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/node_modules/webdriver/build/request.js:113:64)
+    at Request.self.callback (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/node_modules/webdriver/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:197:13)
+    at Request.EventEmitter.emit (domain.js:446:20)
+    at Request.<anonymous> (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/node_modules/webdriver/node_modules/request/request.js:1161:10)
+    at Request.emit (events.js:197:13)
+    at Request.EventEmitter.emit (domain.js:446:20)
+    at IncomingMessage.<anonymous> (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/node_modules/webdriver/node_modules/request/request.js:1083:12)
+    at Object.onceWrapper (events.js:285:13)
+2019-04-25T09:49:32.155Z ERROR wdio-sync: Error: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=74.0.3729.108)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Mac OS X 10.14.4 x86_64)
+    at getErrorFromResponseBody (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/node_modules/webdriver/build/utils.js:342:10)
+    at Request._callback (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/node_modules/webdriver/build/request.js:113:64)
+    at Request.self.callback (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/node_modules/webdriver/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:197:13)
+    at Request.EventEmitter.emit (domain.js:446:20)
+    at Request.<anonymous> (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/node_modules/webdriver/node_modules/request/request.js:1161:10)
+    at Request.emit (events.js:197:13)
+    at Request.EventEmitter.emit (domain.js:446:20)
+    at IncomingMessage.<anonymous> (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/node_modules/webdriver/node_modules/request/request.js:1083:12)
+    at Object.onceWrapper (events.js:285:13)

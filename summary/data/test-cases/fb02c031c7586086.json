@@ -1,0 +1,57 @@
+{
+  "uid" : "fb02c031c7586086",
+  "name" : "check ui",
+  "fullName" : "protection request whitelist  set one item all.check ui",
+  "historyId" : "1193908a606373ca519b7515be5899fb",
+  "time" : {
+    "start" : 1556551963620,
+    "stop" : 1556551963621,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-14"
+  }, {
+    "name" : "suite",
+    "value" : "protection request whitelist  set one item all"
+  }, {
+    "name" : "testClass",
+    "value" : "protection request whitelist  set one item all"
+  }, {
+    "name" : "testMethod",
+    "value" : "check ui"
+  }, {
+    "name" : "package",
+    "value" : "protection request whitelist  set one item all"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fb02c031c7586086.json",
+  "parameterValues" : [ "chrome" ]
+}

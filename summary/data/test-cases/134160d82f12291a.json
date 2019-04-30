@@ -1,0 +1,57 @@
+{
+  "uid" : "134160d82f12291a",
+  "name" : "check resolv.conf value",
+  "fullName" : "Network settings: dns.check resolv.conf value",
+  "historyId" : "1d19fadfd4de7606dbde5f6c2f896d03",
+  "time" : {
+    "start" : 1556554103240,
+    "stop" : 1556554103266,
+    "duration" : 26
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-33"
+  }, {
+    "name" : "suite",
+    "value" : "Network settings: dns"
+  }, {
+    "name" : "testClass",
+    "value" : "Network settings: dns"
+  }, {
+    "name" : "testMethod",
+    "value" : "check resolv.conf value"
+  }, {
+    "name" : "package",
+    "value" : "Network settings: dns"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "134160d82f12291a.json",
+  "parameterValues" : [ "chrome" ]
+}

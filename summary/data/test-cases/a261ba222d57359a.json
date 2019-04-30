@@ -1,0 +1,57 @@
+{
+  "uid" : "a261ba222d57359a",
+  "name" : "the site is accessible",
+  "fullName" : "https: .the site is accessible",
+  "historyId" : "c69fd9a20185a0bb82e84369aa612d01",
+  "time" : {
+    "start" : 1556551728537,
+    "stop" : 1556551728629,
+    "duration" : 92
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-8"
+  }, {
+    "name" : "suite",
+    "value" : "https: "
+  }, {
+    "name" : "testClass",
+    "value" : "https: "
+  }, {
+    "name" : "testMethod",
+    "value" : "the site is accessible"
+  }, {
+    "name" : "package",
+    "value" : "https: "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a261ba222d57359a.json",
+  "parameterValues" : [ "chrome" ]
+}

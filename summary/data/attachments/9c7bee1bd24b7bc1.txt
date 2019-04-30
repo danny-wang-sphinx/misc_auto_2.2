@@ -1,0 +1,19 @@
+{
+  "currentUrl": "https://192.168.5.18:20145/index.html#/protection",
+  "testError": {
+    "matcherName": "toBe",
+    "message": "Expected 'undefined' to be 'string'.",
+    "stack": "Error: Expected 'undefined' to be 'string'.\n    at <Jasmine>\n    at Spec.addExpectationResult (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/node_modules/@wdio/jasmine-framework/build/index.js:239:26)\n    at <Jasmine>\n    at UserContext.it (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/newui/specs/protection/profile.waf.id.basic.js:17:32)\n    at Promise (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/node_modules/@wdio/sync/build/index.js:58:22)",
+    "passed": false,
+    "expected": "string",
+    "actual": "undefined"
+  },
+  "browserErrorlog": [
+    {
+      "level": "SEVERE",
+      "message": "https://192.168.5.18:20145/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)",
+      "source": "network",
+      "timestamp": 1556552106599
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1556553880986' stop='1556553898858'>
+    <name>update src ip  to X-Forwarded-For: protectionData.last</name>
+    <title>update src ip  to X-Forwarded-For: protectionData.last</title>
+    <test-cases>
+        <test-case start='1556553883195' status='passed' stop='1556553883934'>
+            <name>check UI value</name>
+            <title>check UI value</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-28'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556553883934' status='passed' stop='1556553898855'>
+            <name>check log page shows IP as header value 3.3.3.3</name>
+            <title>check log page shows IP as header value 3.3.3.3</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-28'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

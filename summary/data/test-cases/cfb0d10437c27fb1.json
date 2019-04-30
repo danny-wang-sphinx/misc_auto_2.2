@@ -1,0 +1,57 @@
+{
+  "uid" : "cfb0d10437c27fb1",
+  "name" : "check ui",
+  "fullName" : "set error template off.check ui",
+  "historyId" : "a588dae218104a2809ec595c91f7747f",
+  "time" : {
+    "start" : 1556553366984,
+    "stop" : 1556553366985,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-20"
+  }, {
+    "name" : "suite",
+    "value" : "set error template off"
+  }, {
+    "name" : "testClass",
+    "value" : "set error template off"
+  }, {
+    "name" : "testMethod",
+    "value" : "check ui"
+  }, {
+    "name" : "package",
+    "value" : "set error template off"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cfb0d10437c27fb1.json",
+  "parameterValues" : [ "chrome" ]
+}

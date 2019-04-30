@@ -1,0 +1,57 @@
+{
+  "uid" : "e0bc5c541933a8d",
+  "name" : "check ui",
+  "fullName" : "Log output: formatted log set tcp: normal log.check ui",
+  "historyId" : "24ef39cbf39d8576554fe549d6d1599a",
+  "time" : {
+    "start" : 1556554217339,
+    "stop" : 1556554220358,
+    "duration" : 3019
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-35"
+  }, {
+    "name" : "suite",
+    "value" : "Log output: formatted log set tcp: normal log"
+  }, {
+    "name" : "testClass",
+    "value" : "Log output: formatted log set tcp: normal log"
+  }, {
+    "name" : "testMethod",
+    "value" : "check ui"
+  }, {
+    "name" : "package",
+    "value" : "Log output: formatted log set tcp: normal log"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e0bc5c541933a8d.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,93 @@
+{
+  "uid" : "ba4c978b7a994319",
+  "name" : "_testMenuStats should be {\"isDashboardVisible\":true,\"isStaticVisible\":true,\"isLogsVisible\":true,\"isProtectionVisible\":true,\"isAccountVisible\":true,\"isSystemVisible\":true,\"isScheudleReportVisible\":true,\"isSystemSettingVisible\":true,\"isSystemUpdateVisible\":true,\"isNetworkSettingsVisible\":true,\"isLicenseVisible\":true,\"isSSLCertificateVisbile\":true}",
+  "fullName" : "role based menu and user menu check createdAdmin._testMenuStats should be {\"isDashboardVisible\":true,\"isStaticVisible\":true,\"isLogsVisible\":true,\"isProtectionVisible\":true,\"isAccountVisible\":true,\"isSystemVisible\":true,\"isScheudleReportVisible\":true,\"isSystemSettingVisible\":true,\"isSystemUpdateVisible\":true,\"isNetworkSettingsVisible\":true,\"isLicenseVisible\":true,\"isSSLCertificateVisbile\":true}",
+  "historyId" : "6ccf2d56872b7994506e999ea07d6e60",
+  "time" : {
+    "start" : 1556554087977,
+    "stop" : 1556554089101,
+    "duration" : 1124
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected $.isSystemUpdateVisible = false to equal true.\n                Expected $.isNetworkSettingsVisible = false to equal true.\n                Expected $.isLicenseVisible = false to equal true.\n                Expected $.isSSLCertificateVisbile = false to equal true.",
+  "statusTrace" : "Error: Expected $.isSystemUpdateVisible = false to equal true.\n                Expected $.isNetworkSettingsVisible = false to equal true.\n                Expected $.isLicenseVisible = false to equal true.\n                Expected $.isSSLCertificateVisbile = false to equal true.\n                    at <Jasmine>\n                    at <Jasmine>\n                    at UserContext.it (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/newui/specs/webconsole/rbac.sketlon.basic.js:16:22)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expected $.isSystemUpdateVisible = false to equal true.\n                Expected $.isNetworkSettingsVisible = false to equal true.\n                Expected $.isLicenseVisible = false to equal true.\n                Expected $.isSSLCertificateVisbile = false to equal true.",
+    "statusTrace" : "Error: Expected $.isSystemUpdateVisible = false to equal true.\n                Expected $.isNetworkSettingsVisible = false to equal true.\n                Expected $.isLicenseVisible = false to equal true.\n                Expected $.isSSLCertificateVisbile = false to equal true.\n                    at <Jasmine>\n                    at <Jasmine>\n                    at UserContext.it (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/newui/specs/webconsole/rbac.sketlon.basic.js:16:22)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d7f2d0321b11d12d",
+      "name" : "Screenshot",
+      "source" : "d7f2d0321b11d12d.png",
+      "type" : "image/png",
+      "size" : 98063
+    }, {
+      "uid" : "f3082900f4fd3d2",
+      "name" : "errors",
+      "source" : "f3082900f4fd3d2.txt",
+      "type" : "text/plain",
+      "size" : 2262
+    }, {
+      "uid" : "b4a5852439bb016b",
+      "name" : "pageSource",
+      "source" : "b4a5852439bb016b.txt",
+      "type" : "text/plain",
+      "size" : 36799
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-32"
+  }, {
+    "name" : "suite",
+    "value" : "role based menu and user menu check createdAdmin"
+  }, {
+    "name" : "testClass",
+    "value" : "role based menu and user menu check createdAdmin"
+  }, {
+    "name" : "testMethod",
+    "value" : "_testMenuStats should be {\"isDashboardVisible\":true,\"isStaticVisible\":true,\"isLogsVisible\":true,\"isProtectionVisible\":true,\"isAccountVisible\":true,\"isSystemVisible\":true,\"isScheudleReportVisible\":true,\"isSystemSettingVisible\":true,\"isSystemUpdateVisible\":true,\"isNetworkSettingsVisible\":true,\"isLicenseVisible\":true,\"isSSLCertificateVisbile\":true}"
+  }, {
+    "name" : "package",
+    "value" : "role based menu and user menu check createdAdmin"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "ba4c978b7a994319.json",
+  "parameterValues" : [ "chrome" ]
+}

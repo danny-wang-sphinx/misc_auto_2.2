@@ -1,0 +1,57 @@
+{
+  "uid" : "5b66280c0d813fb5",
+  "name" : "unencrypted data post request should not be rejected",
+  "fullName" : "protection web standard security scheme: Form encryption  off.unencrypted data post request should not be rejected",
+  "historyId" : "3d3f836e6fae51240b0f1b680badeb62",
+  "time" : {
+    "start" : 1556551589050,
+    "stop" : 1556551599865,
+    "duration" : 10815
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "protection web standard security scheme: Form encryption  off"
+  }, {
+    "name" : "testClass",
+    "value" : "protection web standard security scheme: Form encryption  off"
+  }, {
+    "name" : "testMethod",
+    "value" : "unencrypted data post request should not be rejected"
+  }, {
+    "name" : "package",
+    "value" : "protection web standard security scheme: Form encryption  off"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5b66280c0d813fb5.json",
+  "parameterValues" : [ "chrome" ]
+}

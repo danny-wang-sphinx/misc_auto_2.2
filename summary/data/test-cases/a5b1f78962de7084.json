@@ -1,0 +1,57 @@
+{
+  "uid" : "a5b1f78962de7084",
+  "name" : "check config file value",
+  "fullName" : "system general page, set analyzer to 14.check config file value",
+  "historyId" : "9c32fbf4f75dc9686bdf250121847377",
+  "time" : {
+    "start" : 1556554137265,
+    "stop" : 1556554137295,
+    "duration" : 30
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-34"
+  }, {
+    "name" : "suite",
+    "value" : "system general page, set analyzer to 14"
+  }, {
+    "name" : "testClass",
+    "value" : "system general page, set analyzer to 14"
+  }, {
+    "name" : "testMethod",
+    "value" : "check config file value"
+  }, {
+    "name" : "package",
+    "value" : "system general page, set analyzer to 14"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a5b1f78962de7084.json",
+  "parameterValues" : [ "chrome" ]
+}

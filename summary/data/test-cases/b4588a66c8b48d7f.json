@@ -1,0 +1,57 @@
+{
+  "uid" : "b4588a66c8b48d7f",
+  "name" : "support click see more",
+  "fullName" : "dashboard.support click see more",
+  "historyId" : "4c2e824e948ddb488613b96b220aac0c",
+  "time" : {
+    "start" : 1556554561292,
+    "stop" : 1556554566176,
+    "duration" : 4884
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-44"
+  }, {
+    "name" : "suite",
+    "value" : "dashboard"
+  }, {
+    "name" : "testClass",
+    "value" : "dashboard"
+  }, {
+    "name" : "testMethod",
+    "value" : "support click see more"
+  }, {
+    "name" : "package",
+    "value" : "dashboard"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b4588a66c8b48d7f.json",
+  "parameterValues" : [ "chrome" ]
+}

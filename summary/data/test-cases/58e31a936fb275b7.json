@@ -1,0 +1,57 @@
+{
+  "uid" : "58e31a936fb275b7",
+  "name" : "viewer should display delete btn, and enable status is checked",
+  "fullName" : "accounts page display check.viewer should display delete btn, and enable status is checked",
+  "historyId" : "1e23ba0a82ff273b643cc825f2594d9",
+  "time" : {
+    "start" : 1556553405383,
+    "stop" : 1556553405384,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-21"
+  }, {
+    "name" : "suite",
+    "value" : "accounts page display check"
+  }, {
+    "name" : "testClass",
+    "value" : "accounts page display check"
+  }, {
+    "name" : "testMethod",
+    "value" : "viewer should display delete btn, and enable status is checked"
+  }, {
+    "name" : "package",
+    "value" : "accounts page display check"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "58e31a936fb275b7.json",
+  "parameterValues" : [ "chrome" ]
+}

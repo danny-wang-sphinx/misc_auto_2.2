@@ -1,0 +1,57 @@
+{
+  "uid" : "ff67199c5685d55a",
+  "name" : "check uistatus",
+  "fullName" : "protection web standard security scheme: Session Replay  false.check uistatus",
+  "historyId" : "a785134a9c5c4fd7277b2b2d75057320",
+  "time" : {
+    "start" : 1556552048086,
+    "stop" : 1556552048087,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-16"
+  }, {
+    "name" : "suite",
+    "value" : "protection web standard security scheme: Session Replay  false"
+  }, {
+    "name" : "testClass",
+    "value" : "protection web standard security scheme: Session Replay  false"
+  }, {
+    "name" : "testMethod",
+    "value" : "check uistatus"
+  }, {
+    "name" : "package",
+    "value" : "protection web standard security scheme: Session Replay  false"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ff67199c5685d55a.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,57 @@
+{
+  "uid" : "362f8d3b1cfa65ed",
+  "name" : "check ui",
+  "fullName" : "set error template {\"400\":true}.check ui",
+  "historyId" : "c524c4a687f4f9a27193c34758a2e975",
+  "time" : {
+    "start" : 1556552237582,
+    "stop" : 1556552237585,
+    "duration" : 3
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-19"
+  }, {
+    "name" : "suite",
+    "value" : "set error template {\"400\":true}"
+  }, {
+    "name" : "testClass",
+    "value" : "set error template {\"400\":true}"
+  }, {
+    "name" : "testMethod",
+    "value" : "check ui"
+  }, {
+    "name" : "package",
+    "value" : "set error template {\"400\":true}"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "362f8d3b1cfa65ed.json",
+  "parameterValues" : [ "chrome" ]
+}

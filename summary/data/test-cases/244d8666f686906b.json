@@ -1,0 +1,57 @@
+{
+  "uid" : "244d8666f686906b",
+  "name" : "check webdriver typing, attack_type has session replay: true",
+  "fullName" : "protection web standard security scheme: Session Replay  true.check webdriver typing, attack_type has session replay: true",
+  "historyId" : "d0bc336d9796b7ff9217689a2581fb65",
+  "time" : {
+    "start" : 1556552028343,
+    "stop" : 1556552039656,
+    "duration" : 11313
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-16"
+  }, {
+    "name" : "suite",
+    "value" : "protection web standard security scheme: Session Replay  true"
+  }, {
+    "name" : "testClass",
+    "value" : "protection web standard security scheme: Session Replay  true"
+  }, {
+    "name" : "testMethod",
+    "value" : "check webdriver typing, attack_type has session replay: true"
+  }, {
+    "name" : "package",
+    "value" : "protection web standard security scheme: Session Replay  true"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "244d8666f686906b.json",
+  "parameterValues" : [ "chrome" ]
+}

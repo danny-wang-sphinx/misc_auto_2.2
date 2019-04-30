@@ -1,0 +1,57 @@
+{
+  "uid" : "78e32d9c2730ec3c",
+  "name" : "off: in the list,same ip, curl should not be reload nor reject, curl=/155655178006089",
+  "fullName" : "protection basic settings: IP based off: with one subnet.off: in the list,same ip, curl should not be reload nor reject, curl=/155655178006089",
+  "historyId" : "3019a536711a9e59bc1cd9f097c79cfb",
+  "time" : {
+    "start" : 1556551812378,
+    "stop" : 1556551812435,
+    "duration" : 57
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-10"
+  }, {
+    "name" : "suite",
+    "value" : "protection basic settings: IP based off: with one subnet"
+  }, {
+    "name" : "testClass",
+    "value" : "protection basic settings: IP based off: with one subnet"
+  }, {
+    "name" : "testMethod",
+    "value" : "off: in the list,same ip, curl should not be reload nor reject, curl=/155655178006089"
+  }, {
+    "name" : "package",
+    "value" : "protection basic settings: IP based off: with one subnet"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "78e32d9c2730ec3c.json",
+  "parameterValues" : [ "chrome" ]
+}

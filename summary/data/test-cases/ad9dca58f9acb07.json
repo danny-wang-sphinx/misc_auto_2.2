@@ -1,0 +1,57 @@
+{
+  "uid" : "ad9dca58f9acb07",
+  "name" : "check isSeeMoreVisible: true",
+  "fullName" : "rbac dashboard page:viwer.check isSeeMoreVisible: true",
+  "historyId" : "1b1c39287b3ab24c32023ca3a2c6062",
+  "time" : {
+    "start" : 1556554062198,
+    "stop" : 1556554062201,
+    "duration" : 3
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-30"
+  }, {
+    "name" : "suite",
+    "value" : "rbac dashboard page:viwer"
+  }, {
+    "name" : "testClass",
+    "value" : "rbac dashboard page:viwer"
+  }, {
+    "name" : "testMethod",
+    "value" : "check isSeeMoreVisible: true"
+  }, {
+    "name" : "package",
+    "value" : "rbac dashboard page:viwer"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ad9dca58f9acb07.json",
+  "parameterValues" : [ "chrome" ]
+}

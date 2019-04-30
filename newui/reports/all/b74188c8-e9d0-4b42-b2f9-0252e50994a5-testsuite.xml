@@ -1,0 +1,35 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1556554581217' stop='1556554611140'>
+    <name>security log</name>
+    <title>security log</title>
+    <test-cases>
+        <test-case start='1556554602396' status='passed' stop='1556554608417'>
+            <name>category deselect inject and cookie, result will not show inject nor cookie entries</name>
+            <title>category deselect inject and cookie, result will not show inject nor cookie entries</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-46'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556554608418' status='passed' stop='1556554611139'>
+            <name>search by unmatch data, result table should be empty</name>
+            <title>search by unmatch data, result table should be empty</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-46'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,57 @@
+{
+  "uid" : "bd8b55ea7c2c3898",
+  "name" : "check response headers",
+  "fullName" : "advanced setting: request and response headers all enabled with some changed value.check response headers",
+  "historyId" : "70b5e3e75cda653a3908ffe9405d06c5",
+  "time" : {
+    "start" : 1556554424744,
+    "stop" : 1556554424774,
+    "duration" : 30
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-39"
+  }, {
+    "name" : "suite",
+    "value" : "advanced setting: request and response headers all enabled with some changed value"
+  }, {
+    "name" : "testClass",
+    "value" : "advanced setting: request and response headers all enabled with some changed value"
+  }, {
+    "name" : "testMethod",
+    "value" : "check response headers"
+  }, {
+    "name" : "package",
+    "value" : "advanced setting: request and response headers all enabled with some changed value"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bd8b55ea7c2c3898.json",
+  "parameterValues" : [ "chrome" ]
+}

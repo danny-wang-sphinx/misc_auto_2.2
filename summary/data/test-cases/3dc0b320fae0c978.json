@@ -1,0 +1,57 @@
+{
+  "uid" : "3dc0b320fae0c978",
+  "name" : "form submission through browser should be accepted",
+  "fullName" : "protection web standard security scheme: Form encryption  on.form submission through browser should be accepted",
+  "historyId" : "1f06ffab54eb0b8ae67861fb238210fe",
+  "time" : {
+    "start" : 1556551547035,
+    "stop" : 1556551558455,
+    "duration" : 11420
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "protection web standard security scheme: Form encryption  on"
+  }, {
+    "name" : "testClass",
+    "value" : "protection web standard security scheme: Form encryption  on"
+  }, {
+    "name" : "testMethod",
+    "value" : "form submission through browser should be accepted"
+  }, {
+    "name" : "package",
+    "value" : "protection web standard security scheme: Form encryption  on"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3dc0b320fae0c978.json",
+  "parameterValues" : [ "chrome" ]
+}

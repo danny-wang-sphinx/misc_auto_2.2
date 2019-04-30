@@ -1,0 +1,29 @@
+<html lang="en"><head>
+  <meta charset="UTF-8">
+</head>
+<body><!--[if lt IE 9]><script r='m'>document.createElement("section")</script><![endif]-->
+  <a href="/">ToMainPage</a>
+  <p>Received raw headers</p>
+  <pre>{
+  "Host": "a.com:7000",
+  "X-Real-IP": "192.168.5.103",
+  "X-Forwarded-For": "192.168.5.103",
+  "WL-Proxy-Client-IP": "192.168.5.103",
+  "Upgrade-Insecure-Requests": "1",
+  "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36",
+  "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
+  "Accept-Language": "zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7",
+  "returnCode": "504"
+}</pre>
+  <form id="form1" action="/" method="post">
+    <input type="text" name="abc">
+    <input type="submit">
+  </form>
+  <pre id="result"><p>hello</p></pre>
+
+<script>
+(function log_debug() { 
+  document.querySelector('#result').innerHTML = '<p>hello</p>'
+})();
+</script>
+<div id="userdata_el" style="visibility: hidden; position: absolute;"></div></body></html>

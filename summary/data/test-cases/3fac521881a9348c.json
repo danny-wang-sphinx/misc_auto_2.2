@@ -1,0 +1,57 @@
+{
+  "uid" : "3fac521881a9348c",
+  "name" : "check entrypoint will not reload nor 400, curl=/155655145747333",
+  "fullName" : "protection basic settings: set entry point non default.check entrypoint will not reload nor 400, curl=/155655145747333",
+  "historyId" : "a3cd05fc1629951ef59e7711bad24255",
+  "time" : {
+    "start" : 1556551473725,
+    "stop" : 1556551473768,
+    "duration" : 43
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-4"
+  }, {
+    "name" : "suite",
+    "value" : "protection basic settings: set entry point non default"
+  }, {
+    "name" : "testClass",
+    "value" : "protection basic settings: set entry point non default"
+  }, {
+    "name" : "testMethod",
+    "value" : "check entrypoint will not reload nor 400, curl=/155655145747333"
+  }, {
+    "name" : "package",
+    "value" : "protection basic settings: set entry point non default"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3fac521881a9348c.json",
+  "parameterValues" : [ "chrome" ]
+}

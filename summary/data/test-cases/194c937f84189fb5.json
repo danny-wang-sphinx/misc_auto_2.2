@@ -1,0 +1,57 @@
+{
+  "uid" : "194c937f84189fb5",
+  "name" : "check uivalue",
+  "fullName" : "system general page, set analyzer to 14.check uivalue",
+  "historyId" : "fdceeb97d1ed0b355286cb2bee52f4a1",
+  "time" : {
+    "start" : 1556554134071,
+    "stop" : 1556554137265,
+    "duration" : 3194
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-34"
+  }, {
+    "name" : "suite",
+    "value" : "system general page, set analyzer to 14"
+  }, {
+    "name" : "testClass",
+    "value" : "system general page, set analyzer to 14"
+  }, {
+    "name" : "testMethod",
+    "value" : "check uivalue"
+  }, {
+    "name" : "package",
+    "value" : "system general page, set analyzer to 14"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "194c937f84189fb5.json",
+  "parameterValues" : [ "chrome" ]
+}

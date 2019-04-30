@@ -1,0 +1,57 @@
+{
+  "uid" : "475e736c0d382e2b",
+  "name" : "curl nonWhiteList should return reload",
+  "fullName" : "protection mode block.curl nonWhiteList should return reload",
+  "historyId" : "8334ebfe5a3336f1ed3d763d7778d186",
+  "time" : {
+    "start" : 1556551865435,
+    "stop" : 1556551865457,
+    "duration" : 22
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-11"
+  }, {
+    "name" : "suite",
+    "value" : "protection mode block"
+  }, {
+    "name" : "testClass",
+    "value" : "protection mode block"
+  }, {
+    "name" : "testMethod",
+    "value" : "curl nonWhiteList should return reload"
+  }, {
+    "name" : "package",
+    "value" : "protection mode block"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "475e736c0d382e2b.json",
+  "parameterValues" : [ "chrome" ]
+}

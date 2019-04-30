@@ -1,0 +1,57 @@
+{
+  "uid" : "43fbda8048d7697c",
+  "name" : "diabled should be forbidden status,enable should be 200 ",
+  "fullName" : "protection http methods disable all default, enable all non-default.diabled should be forbidden status,enable should be 200 ",
+  "historyId" : "4593310f67507430e2d26a01be9f646",
+  "time" : {
+    "start" : 1556551677126,
+    "stop" : 1556551707318,
+    "duration" : 30192
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-7"
+  }, {
+    "name" : "suite",
+    "value" : "protection http methods disable all default, enable all non-default"
+  }, {
+    "name" : "testClass",
+    "value" : "protection http methods disable all default, enable all non-default"
+  }, {
+    "name" : "testMethod",
+    "value" : "diabled should be forbidden status,enable should be 200 "
+  }, {
+    "name" : "package",
+    "value" : "protection http methods disable all default, enable all non-default"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "43fbda8048d7697c.json",
+  "parameterValues" : [ "chrome" ]
+}

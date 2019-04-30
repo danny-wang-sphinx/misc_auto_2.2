@@ -1,0 +1,57 @@
+{
+  "uid" : "7f35dd4edfc794bb",
+  "name" : "check log page shows IP as header value of:X-REAL-IP 1.2.3.4",
+  "fullName" : "update src ip  to X-Real-IP.check log page shows IP as header value of:X-REAL-IP 1.2.3.4",
+  "historyId" : "439da9455ad7d074f8377ee2991deb52",
+  "time" : {
+    "start" : 1556553959990,
+    "stop" : 1556553985257,
+    "duration" : 25267
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-28"
+  }, {
+    "name" : "suite",
+    "value" : "update src ip  to X-Real-IP"
+  }, {
+    "name" : "testClass",
+    "value" : "update src ip  to X-Real-IP"
+  }, {
+    "name" : "testMethod",
+    "value" : "check log page shows IP as header value of:X-REAL-IP 1.2.3.4"
+  }, {
+    "name" : "package",
+    "value" : "update src ip  to X-Real-IP"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7f35dd4edfc794bb.json",
+  "parameterValues" : [ "chrome" ]
+}

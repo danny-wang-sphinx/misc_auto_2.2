@@ -1,0 +1,57 @@
+{
+  "uid" : "14ed4342d4005c3d",
+  "name" : "admin click node ip",
+  "fullName" : "dashboard.admin click node ip",
+  "historyId" : "d7811f0a52a8cc48a44956852645925b",
+  "time" : {
+    "start" : 1556553597399,
+    "stop" : 1556553600366,
+    "duration" : 2967
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-24"
+  }, {
+    "name" : "suite",
+    "value" : "dashboard"
+  }, {
+    "name" : "testClass",
+    "value" : "dashboard"
+  }, {
+    "name" : "testMethod",
+    "value" : "admin click node ip"
+  }, {
+    "name" : "package",
+    "value" : "dashboard"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "14ed4342d4005c3d.json",
+  "parameterValues" : [ "chrome" ]
+}

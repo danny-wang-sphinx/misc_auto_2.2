@@ -1,0 +1,57 @@
+{
+  "uid" : "3afb55a3e40eaacc",
+  "name" : "action should show if cookie token error only",
+  "fullName" : "security log.action should show if cookie token error only",
+  "historyId" : "a630aab00a738910b996d49341c03739",
+  "time" : {
+    "start" : 1556553678445,
+    "stop" : 1556553681601,
+    "duration" : 3156
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-26"
+  }, {
+    "name" : "suite",
+    "value" : "security log"
+  }, {
+    "name" : "testClass",
+    "value" : "security log"
+  }, {
+    "name" : "testMethod",
+    "value" : "action should show if cookie token error only"
+  }, {
+    "name" : "package",
+    "value" : "security log"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3afb55a3e40eaacc.json",
+  "parameterValues" : [ "chrome" ]
+}

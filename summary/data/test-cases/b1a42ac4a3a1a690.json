@@ -1,0 +1,57 @@
+{
+  "uid" : "b1a42ac4a3a1a690",
+  "name" : "search by ip",
+  "fullName" : "security log.search by ip",
+  "historyId" : "52363c9bdf23a0d16be1482ddbf9a4f2",
+  "time" : {
+    "start" : 1556553664067,
+    "stop" : 1556553670692,
+    "duration" : 6625
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-26"
+  }, {
+    "name" : "suite",
+    "value" : "security log"
+  }, {
+    "name" : "testClass",
+    "value" : "security log"
+  }, {
+    "name" : "testMethod",
+    "value" : "search by ip"
+  }, {
+    "name" : "package",
+    "value" : "security log"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b1a42ac4a3a1a690.json",
+  "parameterValues" : [ "chrome" ]
+}

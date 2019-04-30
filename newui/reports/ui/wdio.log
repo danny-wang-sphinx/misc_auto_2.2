@@ -1,0 +1,9 @@
+2019-04-24T13:40:01.459Z DEBUG wdio-config: @wdio/sync found, running tests synchronous
+2019-04-24T13:40:02.406Z DEBUG wdio-cli:run: Run suite with config newui/config/wdio.conf.ui.js and params { _: [ 'newui/config/wdio.conf.ui.js' ],
+  '$0':
+   '/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/node_modules/.bin/wdio' }
+2019-04-24T13:40:02.564Z INFO wdio-cli:Launcher: Run onPrepare hook
+2019-04-24T13:40:02.568Z INFO wdio-local-runner: Start worker 0-0 with arg: newui/config/wdio.conf.ui.js
+2019-04-24T13:40:02.580Z INFO wdio-local-runner: Start worker 0-1 with arg: newui/config/wdio.conf.ui.js
+2019-04-24T13:42:00.677Z DEBUG wdio-local-runner: Runner 0-0 finished with exit code 0
+2019-04-24T13:50:24.937Z DEBUG wdio-local-runner: Runner 0-1 finished with exit code 0

@@ -1,0 +1,57 @@
+{
+  "uid" : "ad08b2fd9335a383",
+  "name" : "can disable other admins",
+  "fullName" : "default admin account management.can disable other admins",
+  "historyId" : "44a4b033415bc9bc0649ba7968331650",
+  "time" : {
+    "start" : 1556553409969,
+    "stop" : 1556553422658,
+    "duration" : 12689
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-22"
+  }, {
+    "name" : "suite",
+    "value" : "default admin account management"
+  }, {
+    "name" : "testClass",
+    "value" : "default admin account management"
+  }, {
+    "name" : "testMethod",
+    "value" : "can disable other admins"
+  }, {
+    "name" : "package",
+    "value" : "default admin account management"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ad08b2fd9335a383.json",
+  "parameterValues" : [ "chrome" ]
+}

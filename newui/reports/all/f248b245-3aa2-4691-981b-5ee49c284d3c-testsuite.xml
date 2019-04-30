@@ -1,0 +1,49 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1556551980904' stop='1556551989387'>
+    <name>protection response whitelist  set one item</name>
+    <title>protection response whitelist  set one item</title>
+    <test-cases>
+        <test-case start='1556551989322' status='passed' stop='1556551989325'>
+            <name>set one item, check ui</name>
+            <title>set one item, check ui</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-15'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556551989325' status='passed' stop='1556551989354'>
+            <name>in the response list, there is no meta id</name>
+            <title>in the response list, there is no meta id</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-15'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556551989356' status='passed' stop='1556551989383'>
+            <name>not in the response list, there is meta id</name>
+            <title>not in the response list, there is meta id</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-15'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

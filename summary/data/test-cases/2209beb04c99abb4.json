@@ -1,0 +1,57 @@
+{
+  "uid" : "2209beb04c99abb4",
+  "name" : "only goodbot ua, request should not pass through",
+  "fullName" : "set error template on.only goodbot ua, request should not pass through",
+  "historyId" : "5017dc29a1b508c7929852b564671ee4",
+  "time" : {
+    "start" : 1556553334470,
+    "stop" : 1556553334496,
+    "duration" : 26
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-20"
+  }, {
+    "name" : "suite",
+    "value" : "set error template on"
+  }, {
+    "name" : "testClass",
+    "value" : "set error template on"
+  }, {
+    "name" : "testMethod",
+    "value" : "only goodbot ua, request should not pass through"
+  }, {
+    "name" : "package",
+    "value" : "set error template on"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2209beb04c99abb4.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,57 @@
+{
+  "uid" : "74f03a0b02f10694",
+  "name" : "conf check should be all",
+  "fullName" : "protection web: block by browsers {\"browserStatus\":true,\"webviewStatus\":true,\"confValue\":\"all\",\"reject\":true}.conf check should be all",
+  "historyId" : "76ce039b89a091cf11fbf5a43f5b9561",
+  "time" : {
+    "start" : 1556551375105,
+    "stop" : 1556551375146,
+    "duration" : 41
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "protection web: block by browsers {\"browserStatus\":true,\"webviewStatus\":true,\"confValue\":\"all\",\"reject\":true}"
+  }, {
+    "name" : "testClass",
+    "value" : "protection web: block by browsers {\"browserStatus\":true,\"webviewStatus\":true,\"confValue\":\"all\",\"reject\":true}"
+  }, {
+    "name" : "testMethod",
+    "value" : "conf check should be all"
+  }, {
+    "name" : "package",
+    "value" : "protection web: block by browsers {\"browserStatus\":true,\"webviewStatus\":true,\"confValue\":\"all\",\"reject\":true}"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "74f03a0b02f10694.json",
+  "parameterValues" : [ "chrome" ]
+}

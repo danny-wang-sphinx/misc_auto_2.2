@@ -1,0 +1,49 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1556551366549' stop='1556551375932'>
+    <name>protection web: block by browsers {"browserStatus":true,"webviewStatus":true,"confValue":"all","reject":true}</name>
+    <title>protection web: block by browsers {"browserStatus":true,"webviewStatus":true,"confValue":"all","reject":true}</title>
+    <test-cases>
+        <test-case start='1556551375102' status='passed' stop='1556551375105'>
+            <name>uicheck</name>
+            <title>uicheck</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556551375105' status='passed' stop='1556551375146'>
+            <name>conf check should be all</name>
+            <title>conf check should be all</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556551375146' status='passed' stop='1556551375931'>
+            <name>browser access should be reject true</name>
+            <title>browser access should be reject true</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

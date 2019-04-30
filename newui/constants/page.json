@@ -1,0 +1,39 @@
+{
+  "siteMapTexts" : {
+    "Dashboard": "Home > Dashboard",
+    "Statistics": "Home > Statistics",
+    "Logs": "Home > Logs",
+    "Protection": "Home > Protection",
+    "Account": "Home > Account",
+    "SystemSettings": "Home > System > Settings",
+    "SystemUpdate": "Home > System > System Update",
+    "NetworkSettings": "Home > System > Network Settings",
+    "License": "Home > System > License",
+    "SSLCertificate": "Home > System > SSL Certificate",
+    "Schedule": "Home > Schedule",
+    "User": "Home > User",
+    "ProtectionProfile": "Home > Protection > Protected Profiles"
+  },
+  "accountPageTexts" : {
+    "boxTitle": "Account List"
+  },
+  "dashboardPageTexts" : {
+    "requestTitle": "Requests in Last 24 Hours",
+    "domainTitle": "Protected Websites",
+    "nodesTitle": "Cluster Node List"
+  },
+  "networkPageTexts": {
+    "routingTitle": "Routing",
+    "DNSTitle": "DNS"
+  },
+  "profilePageTexts": {
+    "tabBasicSettings": "Basic settings",
+    "tabWebProtection": "Web Protection",
+    "tabAdvancedSetting": "Advanced settings",
+    "tabWaf": "WAF"
+  },
+  "logsPageText": {
+    "inject": {"displayText":"SQL Injection","Type":"Inject"},
+    "cookie": {"displayText":"Cookie Token Error","Type":"Cookie"}
+  }
+}

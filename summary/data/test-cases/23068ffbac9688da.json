@@ -1,0 +1,57 @@
+{
+  "uid" : "23068ffbac9688da",
+  "name" : "uicheck",
+  "fullName" : "protection web: block by browsers {\"browserStatus\":true,\"webviewStatus\":false,\"confValue\":\"browser\",\"reject\":true}.uicheck",
+  "historyId" : "8ab1b93831886d0f9a563864b0afd4fa",
+  "time" : {
+    "start" : 1556554288647,
+    "stop" : 1556554288649,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-36"
+  }, {
+    "name" : "suite",
+    "value" : "protection web: block by browsers {\"browserStatus\":true,\"webviewStatus\":false,\"confValue\":\"browser\",\"reject\":true}"
+  }, {
+    "name" : "testClass",
+    "value" : "protection web: block by browsers {\"browserStatus\":true,\"webviewStatus\":false,\"confValue\":\"browser\",\"reject\":true}"
+  }, {
+    "name" : "testMethod",
+    "value" : "uicheck"
+  }, {
+    "name" : "package",
+    "value" : "protection web: block by browsers {\"browserStatus\":true,\"webviewStatus\":false,\"confValue\":\"browser\",\"reject\":true}"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "23068ffbac9688da.json",
+  "parameterValues" : [ "chrome" ]
+}

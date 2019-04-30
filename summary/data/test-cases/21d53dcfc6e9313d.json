@@ -1,0 +1,57 @@
+{
+  "uid" : "21d53dcfc6e9313d",
+  "name" : "check uistatus",
+  "fullName" : "protection invalid request policy:  blocking page: skip, essential protection cannot trigger blocking page.check uistatus",
+  "historyId" : "9f2a7437a4fcfd444d404bfe6e2ffa48",
+  "time" : {
+    "start" : 1556551771836,
+    "stop" : 1556551771836,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-9"
+  }, {
+    "name" : "suite",
+    "value" : "protection invalid request policy:  blocking page: skip, essential protection cannot trigger blocking page"
+  }, {
+    "name" : "testClass",
+    "value" : "protection invalid request policy:  blocking page: skip, essential protection cannot trigger blocking page"
+  }, {
+    "name" : "testMethod",
+    "value" : "check uistatus"
+  }, {
+    "name" : "package",
+    "value" : "protection invalid request policy:  blocking page: skip, essential protection cannot trigger blocking page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "21d53dcfc6e9313d.json",
+  "parameterValues" : [ "chrome" ]
+}

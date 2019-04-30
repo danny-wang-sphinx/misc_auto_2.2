@@ -1,0 +1,93 @@
+{
+  "uid" : "737a29e92c6fbbf5",
+  "name" : "orginal response page content",
+  "fullName" : "set error template {\"400\":true,\"403\":true,\"404\":true,\"500\":true,\"502\":true,\"504\":true}.orginal response page content",
+  "historyId" : "547e0eb33d13839c27ddfc69a55e643f",
+  "time" : {
+    "start" : 1556552884958,
+    "stop" : 1556553065226,
+    "duration" : 180268
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: Timeout - Async callback was not invoked within 180000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)",
+  "statusTrace" : "Error: Timeout - Async callback was not invoked within 180000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)\n                    at <Jasmine>\n                    at listOnTimeout (timers.js:327:15)\n                    at processTimers (timers.js:271:5)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Error: Timeout - Async callback was not invoked within 180000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)",
+    "statusTrace" : "Error: Timeout - Async callback was not invoked within 180000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)\n                    at <Jasmine>\n                    at listOnTimeout (timers.js:327:15)\n                    at processTimers (timers.js:271:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f416a7326edf5b95",
+      "name" : "Screenshot",
+      "source" : "f416a7326edf5b95.png",
+      "type" : "image/png",
+      "size" : 61943
+    }, {
+      "uid" : "5fb176a0a984f06",
+      "name" : "errors",
+      "source" : "5fb176a0a984f06.txt",
+      "type" : "text/plain",
+      "size" : 1951
+    }, {
+      "uid" : "a9aa4fffc43f9ddf",
+      "name" : "pageSource",
+      "source" : "a9aa4fffc43f9ddf.txt",
+      "type" : "text/plain",
+      "size" : 3408
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-19"
+  }, {
+    "name" : "suite",
+    "value" : "set error template {\"400\":true,\"403\":true,\"404\":true,\"500\":true,\"502\":true,\"504\":true}"
+  }, {
+    "name" : "testClass",
+    "value" : "set error template {\"400\":true,\"403\":true,\"404\":true,\"500\":true,\"502\":true,\"504\":true}"
+  }, {
+    "name" : "testMethod",
+    "value" : "orginal response page content"
+  }, {
+    "name" : "package",
+    "value" : "set error template {\"400\":true,\"403\":true,\"404\":true,\"500\":true,\"502\":true,\"504\":true}"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "737a29e92c6fbbf5.json",
+  "parameterValues" : [ "chrome" ]
+}

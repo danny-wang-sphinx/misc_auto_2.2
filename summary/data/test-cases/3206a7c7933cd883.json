@@ -1,0 +1,57 @@
+{
+  "uid" : "3206a7c7933cd883",
+  "name" : "only work on GET, curl=/155655145747333",
+  "fullName" : "protection basic settings: set entry point non default.only work on GET, curl=/155655145747333",
+  "historyId" : "18a1f6cbdee6be51c05b519c1d123169",
+  "time" : {
+    "start" : 1556551473768,
+    "stop" : 1556551473797,
+    "duration" : 29
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-4"
+  }, {
+    "name" : "suite",
+    "value" : "protection basic settings: set entry point non default"
+  }, {
+    "name" : "testClass",
+    "value" : "protection basic settings: set entry point non default"
+  }, {
+    "name" : "testMethod",
+    "value" : "only work on GET, curl=/155655145747333"
+  }, {
+    "name" : "package",
+    "value" : "protection basic settings: set entry point non default"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3206a7c7933cd883.json",
+  "parameterValues" : [ "chrome" ]
+}

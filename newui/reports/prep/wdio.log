@@ -1,0 +1,152 @@
+2019-04-26T06:22:54.447Z WARN [PageAction]: isLoginUrl, true, https://192.168.5.18:20145/login.html?fail-no-session
+2019-04-26T06:22:54.466Z WARN [PageAction]: Login admin
+2019-04-26T06:22:56.251Z WARN [PageAction]: logged in admin
+2019-04-26T06:22:56.283Z WARN [PageAction]: before super toprotection clicked
+2019-04-26T06:22:57.050Z WARN [PageAction]: super toprotection clicked
+2019-04-26T06:22:57.050Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone start
+2019-04-26T06:22:57.107Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone end
+2019-04-26T06:22:57.107Z WARN2019-04-26T06:23:08.010Z DEBUG @wdio/local-runner: Runner 0-2 finished with exit code 0
+ waitUnitlFetchResultSpinnerGone start
+2019-04-26T06:22:57.304Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone end
+2019-04-26T06:22:57.304Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone start
+2019-04-26T06:22:57.355Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone end
+2019-04-26T06:22:57.355Z WARN [PageAction]: wait till spinner gone
+2019-04-26T06:22:57.355Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone start
+2019-04-26T06:22:57.408Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone end
+2019-04-26T06:22:57.408Z WARN [PageAction]: wait till table visible
+2019-04-26T06:22:57.466Z WARN [PageAction]: wait till table visible, done
+2019-04-26T06:22:57.466Z WARN [PageAction]: toDomainTab ProtectionPage
+2019-04-26T06:22:57.466Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone start
+2019-04-26T06:22:57.516Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone end
+2019-04-26T06:22:57.516Z WARN [PageAction]: click tab with id tab_domains
+2019-04-26T06:22:57.639Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone start
+2019-04-26T06:22:57.688Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone end
+2019-04-26T06:22:57.689Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone start
+2019-04-26T06:22:57.735Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone end
+2019-04-26T06:22:57.735Z WARN [PageAction]: wait till spinner gone
+2019-04-26T06:22:57.735Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone start
+2019-04-26T06:22:57.783Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone end
+2019-04-26T06:22:57.783Z WARN [PageAction]: wait till table visible
+2019-04-26T06:22:57.835Z WARN [PageAction]: wait till table visible, done
+2019-04-26T06:22:57.836Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone start
+2019-04-26T06:22:57.888Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone end
+2019-04-26T06:22:57.888Z WARN [PageAction]: click tab with id tab_domains
+2019-04-26T06:22:57.986Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone start
+2019-04-26T06:22:58.038Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone end
+2019-04-26T06:22:58.038Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone start
+2019-04-26T06:22:58.094Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone end
+2019-04-26T06:22:58.094Z WARN [PageAction]: wait till spinner gone
+2019-04-26T06:22:58.094Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone start
+2019-04-26T06:22:58.145Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone end
+2019-04-26T06:22:58.145Z WARN [PageAction]: wait till table visible
+2019-04-26T06:22:58.196Z WARN [PageAction]: wait till table visible, done
+2019-04-26T06:22:58.287Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone start
+2019-04-26T06:22:58.333Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone end
+2019-04-26T06:22:58.333Z WARN [PageAction]: click tab with id tab_domains
+2019-04-26T06:22:58.422Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone start
+2019-04-26T06:22:58.469Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone end
+2019-04-26T06:22:58.470Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone start
+2019-04-26T06:22:58.517Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone end
+2019-04-26T06:22:58.517Z WARN [PageAction]: wait till spinner gone
+2019-04-26T06:22:58.517Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone start
+2019-04-26T06:22:58.564Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone end
+2019-04-26T06:22:58.564Z WARN [PageAction]: wait till table visible
+2019-04-26T06:22:58.607Z WARN [PageAction]: wait till table visible, done
+2019-04-26T06:22:58.669Z WARN [PageAction]: ready to delete the profile a
+2019-04-26T06:22:59.301Z WARN [PageAction]: click btn from delete box true
+2019-04-26T06:22:59.873Z WARN [PageAction]: wait till spinner gone
+2019-04-26T06:22:59.873Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone start
+2019-04-26T06:22:59.924Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone end
+2019-04-26T06:22:59.924Z WARN [PageAction]: wait till table visible
+2019-04-26T06:22:59.975Z WARN [PageAction]: wait till table visible, done
+2019-04-26T06:22:59.977Z WARN [Jasmine]: Start testing Setup default profile  add default profile
+2019-04-26T06:23:00.201Z WARN [PageAction]: isLoginUrl, false, https://192.168.5.18:20145/
+2019-04-26T06:23:00.788Z WARN [PageAction]: Already login as admin
+2019-04-26T06:23:00.788Z WARN [PageAction]: before super toprotection clicked
+2019-04-26T06:23:01.046Z WARN [PageAction]: super toprotection clicked
+2019-04-26T06:23:01.046Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone start
+2019-04-26T06:23:01.116Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone end
+2019-04-26T06:23:01.116Z WARN [PageAction]: click tab with id tab_domains
+2019-04-26T06:23:01.241Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone start
+2019-04-26T06:23:01.291Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone end
+2019-04-26T06:23:01.292Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone start
+2019-04-26T06:23:01.340Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone end
+2019-04-26T06:23:01.340Z WARN [PageAction]: wait till spinner gone
+2019-04-26T06:23:01.340Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone start
+2019-04-26T06:23:01.390Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone end
+2019-04-26T06:23:01.390Z WARN [PageAction]: wait till table visible
+2019-04-26T06:23:01.445Z WARN [PageAction]: wait till table visible, done
+2019-04-26T06:23:01.445Z WARN [PageAction]: toDomainTab ProtectionPage
+2019-04-26T06:23:01.445Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone start
+2019-04-26T06:23:01.493Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone end
+2019-04-26T06:23:01.493Z WARN [PageAction]: click tab with id tab_domains
+2019-04-26T06:23:01.613Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone start
+2019-04-26T06:23:01.690Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone end
+2019-04-26T06:23:01.690Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone start
+2019-04-26T06:23:01.741Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone end
+2019-04-26T06:23:01.741Z WARN [PageAction]: wait till spinner gone
+2019-04-26T06:23:01.742Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone start
+2019-04-26T06:23:01.789Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone end
+2019-04-26T06:23:01.789Z WARN [PageAction]: wait till table visible
+2019-04-26T06:23:01.834Z WARN [PageAction]: wait till table visible, done
+2019-04-26T06:23:01.834Z WARN [PageAction]: old profile exist, delete it
+2019-04-26T06:23:01.834Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone start
+2019-04-26T06:23:01.879Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone end
+2019-04-26T06:23:01.880Z WARN [PageAction]: click tab with id tab_domains
+2019-04-26T06:23:01.973Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone start
+2019-04-26T06:23:02.022Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone end
+2019-04-26T06:23:02.022Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone start
+2019-04-26T06:23:02.073Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone end
+2019-04-26T06:23:02.073Z WARN [PageAction]: wait till spinner gone
+2019-04-26T06:23:02.073Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone start
+2019-04-26T06:23:02.134Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone end
+2019-04-26T06:23:02.134Z WARN [PageAction]: wait till table visible
+2019-04-26T06:23:02.182Z WARN [PageAction]: wait till table visible, done
+2019-04-26T06:23:02.234Z WARN [PageAction]: wait till spinner gone
+2019-04-26T06:23:02.234Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone start
+2019-04-26T06:23:02.281Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone end
+2019-04-26T06:23:02.281Z WARN [PageAction]: wait till table visible
+2019-04-26T06:23:02.327Z WARN [PageAction]: wait till table visible, done
+2019-04-26T06:23:02.327Z WARN [PageAction]: old profile delete, done
+2019-04-26T06:23:02.327Z WARN [PageAction]: wait till spinner gone
+2019-04-26T06:23:02.327Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone start
+2019-04-26T06:23:02.374Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone end
+2019-04-26T06:23:02.374Z WARN [PageAction]: wait till table visible
+2019-04-26T06:23:02.418Z WARN [PageAction]: wait till table visible, done
+2019-04-26T06:23:02.480Z WARN [PageAction]: profile not exist, create
+2019-04-26T06:23:04.287Z WARN [PageAction]: found table by key result.config.servers
+2019-04-26T06:23:04.840Z WARN [PageAction]: upstream ip set to  192.168.5.1
+2019-04-26T06:23:05.918Z WARN [PageAction]: isLoginUrl, false, https://192.168.5.18:20145/
+2019-04-26T06:23:06.520Z WARN [PageAction]: Already login as admin
+2019-04-26T06:23:06.520Z WARN [PageAction]: before super toprotection clicked
+2019-04-26T06:23:06.790Z WARN [PageAction]: super toprotection clicked
+2019-04-26T06:23:06.790Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone start
+2019-04-26T06:23:06.857Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone end
+2019-04-26T06:23:06.857Z WARN [PageAction]: click tab with id tab_domains
+2019-04-26T06:23:06.981Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone start
+2019-04-26T06:23:07.027Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone end
+2019-04-26T06:23:07.027Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone start
+2019-04-26T06:23:07.074Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone end
+2019-04-26T06:23:07.074Z WARN [PageAction]: wait till spinner gone
+2019-04-26T06:23:07.074Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone start
+2019-04-26T06:23:07.124Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone end
+2019-04-26T06:23:07.124Z WARN [PageAction]: wait till table visible
+2019-04-26T06:23:07.180Z WARN [PageAction]: wait till table visible, done
+2019-04-26T06:23:07.180Z WARN [PageAction]: toDomainTab ProtectionPage
+2019-04-26T06:23:07.180Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone start
+2019-04-26T06:23:07.229Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone end
+2019-04-26T06:23:07.229Z WARN [PageAction]: click tab with id tab_domains
+2019-04-26T06:23:07.323Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone start
+2019-04-26T06:23:07.372Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone end
+2019-04-26T06:23:07.372Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone start
+2019-04-26T06:23:07.417Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone end
+2019-04-26T06:23:07.418Z WARN [PageAction]: wait till spinner gone
+2019-04-26T06:23:07.418Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone start
+2019-04-26T06:23:07.467Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone end
+2019-04-26T06:23:07.467Z WARN [PageAction]: wait till table visible
+2019-04-26T06:23:07.510Z WARN [PageAction]: wait till table visible, done
+2019-04-26T06:23:07.510Z WARN [PageAction]: wait till spinner gone
+2019-04-26T06:23:07.510Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone start
+2019-04-26T06:23:07.561Z WARN [PageAction]: waitUnitlFetchResultSpinnerGone end
+2019-04-26T06:23:07.561Z WARN [PageAction]: wait till table visible
+2019-04-26T06:23:07.605Z WARN [PageAction]: wait till table visible, done

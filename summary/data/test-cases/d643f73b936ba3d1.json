@@ -1,0 +1,57 @@
+{
+  "uid" : "d643f73b936ba3d1",
+  "name" : "Viewer can update own password",
+  "fullName" : "password change page.Viewer can update own password",
+  "historyId" : "37e883c2d460df982110e7bce2946c83",
+  "time" : {
+    "start" : 1556553578184,
+    "stop" : 1556553585009,
+    "duration" : 6825
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-23"
+  }, {
+    "name" : "suite",
+    "value" : "password change page"
+  }, {
+    "name" : "testClass",
+    "value" : "password change page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Viewer can update own password"
+  }, {
+    "name" : "package",
+    "value" : "password change page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d643f73b936ba3d1.json",
+  "parameterValues" : [ "chrome" ]
+}

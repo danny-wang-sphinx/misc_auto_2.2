@@ -1,0 +1,57 @@
+{
+  "uid" : "58a5893f60c363bf",
+  "name" : "change to off, check ui, site accessbile, and curl http will return error:7",
+  "fullName" : "https:  http to https: on.change to off, check ui, site accessbile, and curl http will return error:7",
+  "historyId" : "afe5af6b3d9ba24b16258a825bca8f55",
+  "time" : {
+    "start" : 1556551743733,
+    "stop" : 1556551751277,
+    "duration" : 7544
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-8"
+  }, {
+    "name" : "suite",
+    "value" : "https:  http to https: on"
+  }, {
+    "name" : "testClass",
+    "value" : "https:  http to https: on"
+  }, {
+    "name" : "testMethod",
+    "value" : "change to off, check ui, site accessbile, and curl http will return error:7"
+  }, {
+    "name" : "package",
+    "value" : "https:  http to https: on"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "58a5893f60c363bf.json",
+  "parameterValues" : [ "chrome" ]
+}

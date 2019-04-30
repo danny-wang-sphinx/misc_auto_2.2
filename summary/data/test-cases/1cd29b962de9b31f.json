@@ -1,0 +1,57 @@
+{
+  "uid" : "1cd29b962de9b31f",
+  "name" : "created admin click Go to Protection Settings",
+  "fullName" : "dashboard.created admin click Go to Protection Settings",
+  "historyId" : "45012865da1f66378a1970e1495a2ed",
+  "time" : {
+    "start" : 1556554557533,
+    "stop" : 1556554559040,
+    "duration" : 1507
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-44"
+  }, {
+    "name" : "suite",
+    "value" : "dashboard"
+  }, {
+    "name" : "testClass",
+    "value" : "dashboard"
+  }, {
+    "name" : "testMethod",
+    "value" : "created admin click Go to Protection Settings"
+  }, {
+    "name" : "package",
+    "value" : "dashboard"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1cd29b962de9b31f.json",
+  "parameterValues" : [ "chrome" ]
+}

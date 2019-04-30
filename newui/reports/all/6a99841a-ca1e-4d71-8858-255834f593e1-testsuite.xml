@@ -1,0 +1,49 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1556551538609' stop='1556551569242'>
+    <name>protection web standard security scheme: Form encryption  on</name>
+    <title>protection web standard security scheme: Form encryption  on</title>
+    <test-cases>
+        <test-case start='1556551547032' status='passed' stop='1556551547034'>
+            <name>check uistatus</name>
+            <title>check uistatus</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556551547035' status='passed' stop='1556551558455'>
+            <name>form submission through browser should be accepted</name>
+            <title>form submission through browser should be accepted</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556551558455' status='passed' stop='1556551569241'>
+            <name>unencrypted data post request should be rejected,attack_type is form</name>
+            <title>unencrypted data post request should be rejected,attack_type is form</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

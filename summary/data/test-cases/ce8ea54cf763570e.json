@@ -1,0 +1,57 @@
+{
+  "uid" : "ce8ea54cf763570e",
+  "name" : "check uistatus is off",
+  "fullName" : "protection protected features: web protection off.check uistatus is off",
+  "historyId" : "512ec7427b6b36a6cde282713e06fa69",
+  "time" : {
+    "start" : 1556551501959,
+    "stop" : 1556551501962,
+    "duration" : 3
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-5"
+  }, {
+    "name" : "suite",
+    "value" : "protection protected features: web protection off"
+  }, {
+    "name" : "testClass",
+    "value" : "protection protected features: web protection off"
+  }, {
+    "name" : "testMethod",
+    "value" : "check uistatus is off"
+  }, {
+    "name" : "package",
+    "value" : "protection protected features: web protection off"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ce8ea54cf763570e.json",
+  "parameterValues" : [ "chrome" ]
+}

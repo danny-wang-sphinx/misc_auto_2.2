@@ -1,0 +1,57 @@
+{
+  "uid" : "2b4e09f0b63770d7",
+  "name" : "check the parsed log is outputed to logserver: abnormal log should not be there",
+  "fullName" : "Log output: formatted log set tcp: normal log.check the parsed log is outputed to logserver: abnormal log should not be there",
+  "historyId" : "1bc53d8e86c3fc25f028307821b77f4e",
+  "time" : {
+    "start" : 1556554243455,
+    "stop" : 1556554243456,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-35"
+  }, {
+    "name" : "suite",
+    "value" : "Log output: formatted log set tcp: normal log"
+  }, {
+    "name" : "testClass",
+    "value" : "Log output: formatted log set tcp: normal log"
+  }, {
+    "name" : "testMethod",
+    "value" : "check the parsed log is outputed to logserver: abnormal log should not be there"
+  }, {
+    "name" : "package",
+    "value" : "Log output: formatted log set tcp: normal log"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2b4e09f0b63770d7.json",
+  "parameterValues" : [ "chrome" ]
+}

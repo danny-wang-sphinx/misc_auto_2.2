@@ -1,0 +1,57 @@
+{
+  "uid" : "5faeff79e127838b",
+  "name" : "update, and ntp.conf file updated",
+  "fullName" : "ntp.update, and ntp.conf file updated",
+  "historyId" : "553fea0434f89df3b475b80c3481c3b3",
+  "time" : {
+    "start" : 1556554106322,
+    "stop" : 1556554106346,
+    "duration" : 24
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-33"
+  }, {
+    "name" : "suite",
+    "value" : "ntp"
+  }, {
+    "name" : "testClass",
+    "value" : "ntp"
+  }, {
+    "name" : "testMethod",
+    "value" : "update, and ntp.conf file updated"
+  }, {
+    "name" : "package",
+    "value" : "ntp"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5faeff79e127838b.json",
+  "parameterValues" : [ "chrome" ]
+}

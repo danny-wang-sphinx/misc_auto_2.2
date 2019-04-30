@@ -1,0 +1,57 @@
+{
+  "uid" : "f2a287c569e56273",
+  "name" : "category deselect inject, result will not show inject entries",
+  "fullName" : "security log.category deselect inject, result will not show inject entries",
+  "historyId" : "1719ae6646460e7bfe80e45617bd86e4",
+  "time" : {
+    "start" : 1556553649180,
+    "stop" : 1556553652889,
+    "duration" : 3709
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-26"
+  }, {
+    "name" : "suite",
+    "value" : "security log"
+  }, {
+    "name" : "testClass",
+    "value" : "security log"
+  }, {
+    "name" : "testMethod",
+    "value" : "category deselect inject, result will not show inject entries"
+  }, {
+    "name" : "package",
+    "value" : "security log"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f2a287c569e56273.json",
+  "parameterValues" : [ "chrome" ]
+}

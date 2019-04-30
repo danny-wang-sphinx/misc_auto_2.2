@@ -1,0 +1,57 @@
+{
+  "uid" : "bd6856584ff781fa",
+  "name" : "viewer: check protected profile name is clickable: false",
+  "fullName" : "rbac dashboard page:viwer.viewer: check protected profile name is clickable: false",
+  "historyId" : "becc7f38148602ddb833fbb5d838280f",
+  "time" : {
+    "start" : 1556554062202,
+    "stop" : 1556554062202,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-30"
+  }, {
+    "name" : "suite",
+    "value" : "rbac dashboard page:viwer"
+  }, {
+    "name" : "testClass",
+    "value" : "rbac dashboard page:viwer"
+  }, {
+    "name" : "testMethod",
+    "value" : "viewer: check protected profile name is clickable: false"
+  }, {
+    "name" : "package",
+    "value" : "rbac dashboard page:viwer"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bd6856584ff781fa.json",
+  "parameterValues" : [ "chrome" ]
+}

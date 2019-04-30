@@ -1,0 +1,57 @@
+{
+  "uid" : "b8031241b35e16e",
+  "name" : "_testUserMenuStats should be {\"isDashboardVisible\":true,\"isStaticVisible\":true,\"isLogsVisible\":true,\"isProtectionVisible\":true,\"isAccountVisible\":true,\"isSystemVisible\":true,\"isScheudleReportVisible\":true,\"isSystemSettingVisible\":true,\"isSystemUpdateVisible\":true,\"isNetworkSettingsVisible\":true,\"isLicenseVisible\":true,\"isSSLCertificateVisbile\":true}",
+  "fullName" : "role based menu and user menu check createdAdmin._testUserMenuStats should be {\"isDashboardVisible\":true,\"isStaticVisible\":true,\"isLogsVisible\":true,\"isProtectionVisible\":true,\"isAccountVisible\":true,\"isSystemVisible\":true,\"isScheudleReportVisible\":true,\"isSystemSettingVisible\":true,\"isSystemUpdateVisible\":true,\"isNetworkSettingsVisible\":true,\"isLicenseVisible\":true,\"isSSLCertificateVisbile\":true}",
+  "historyId" : "c5e087c0a846901da331819cb7f95385",
+  "time" : {
+    "start" : 1556554089102,
+    "stop" : 1556554089220,
+    "duration" : 118
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-32"
+  }, {
+    "name" : "suite",
+    "value" : "role based menu and user menu check createdAdmin"
+  }, {
+    "name" : "testClass",
+    "value" : "role based menu and user menu check createdAdmin"
+  }, {
+    "name" : "testMethod",
+    "value" : "_testUserMenuStats should be {\"isDashboardVisible\":true,\"isStaticVisible\":true,\"isLogsVisible\":true,\"isProtectionVisible\":true,\"isAccountVisible\":true,\"isSystemVisible\":true,\"isScheudleReportVisible\":true,\"isSystemSettingVisible\":true,\"isSystemUpdateVisible\":true,\"isNetworkSettingsVisible\":true,\"isLicenseVisible\":true,\"isSSLCertificateVisbile\":true}"
+  }, {
+    "name" : "package",
+    "value" : "role based menu and user menu check createdAdmin"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b8031241b35e16e.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,49 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1556551837483' stop='1556551858141'>
+    <name>protection mode monitor</name>
+    <title>protection mode monitor</title>
+    <test-cases>
+        <test-case start='1556551844295' status='passed' stop='1556551844297'>
+            <name>check UI status</name>
+            <title>check UI status</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-11'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556551844298' status='passed' stop='1556551844345'>
+            <name>curl nonWhiteList shouldnot return reload nor 400</name>
+            <title>curl nonWhiteList shouldnot return reload nor 400</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-11'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556551844345' status='passed' stop='1556551858139'>
+            <name>should still log the attack type</name>
+            <title>should still log the attack type</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-11'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

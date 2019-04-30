@@ -1,0 +1,93 @@
+{
+  "uid" : "19999f0f7599717e",
+  "name" : "should be blocked by initial ruleId",
+  "fullName" : "protection waf.id:  reenable the inital ruleId.should be blocked by initial ruleId",
+  "historyId" : "fb6104305ff69d5e68faae90e9023f7a",
+  "time" : {
+    "start" : 1556552171999,
+    "stop" : 1556552186332,
+    "duration" : 14333
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected '942100' to equal undefined.",
+  "statusTrace" : "Error: Expected '942100' to equal undefined.\n                    at <Jasmine>\n                    at <Jasmine>\n                    at UserContext.it (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/newui/specs/protection/profile.waf.id.basic.js:54:21)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expected '942100' to equal undefined.",
+    "statusTrace" : "Error: Expected '942100' to equal undefined.\n                    at <Jasmine>\n                    at <Jasmine>\n                    at UserContext.it (/Users/danny/Documents/script/node/Sarah-auto/misc/misc_auto_2.2_new/newui/specs/protection/profile.waf.id.basic.js:54:21)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b1761ad9c0f32029",
+      "name" : "Screenshot",
+      "source" : "b1761ad9c0f32029.png",
+      "type" : "image/png",
+      "size" : 119054
+    }, {
+      "uid" : "4632ba64ddf7b547",
+      "name" : "errors",
+      "source" : "4632ba64ddf7b547.txt",
+      "type" : "text/plain",
+      "size" : 780
+    }, {
+      "uid" : "9bf7977eeb3fc84d",
+      "name" : "pageSource",
+      "source" : "9bf7977eeb3fc84d.txt",
+      "type" : "text/plain",
+      "size" : 46708
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-18"
+  }, {
+    "name" : "suite",
+    "value" : "protection waf.id:  reenable the inital ruleId"
+  }, {
+    "name" : "testClass",
+    "value" : "protection waf.id:  reenable the inital ruleId"
+  }, {
+    "name" : "testMethod",
+    "value" : "should be blocked by initial ruleId"
+  }, {
+    "name" : "package",
+    "value" : "protection waf.id:  reenable the inital ruleId"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "19999f0f7599717e.json",
+  "parameterValues" : [ "chrome" ]
+}

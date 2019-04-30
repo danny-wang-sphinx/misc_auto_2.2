@@ -1,0 +1,57 @@
+{
+  "uid" : "831bba7203875862",
+  "name" : "in the response list, there is no meta id",
+  "fullName" : "protection response whitelist  set one item.in the response list, there is no meta id",
+  "historyId" : "a217bc2dd7fbcc7f235c47d67c4db7a3",
+  "time" : {
+    "start" : 1556551989325,
+    "stop" : 1556551989354,
+    "duration" : 29
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-15"
+  }, {
+    "name" : "suite",
+    "value" : "protection response whitelist  set one item"
+  }, {
+    "name" : "testClass",
+    "value" : "protection response whitelist  set one item"
+  }, {
+    "name" : "testMethod",
+    "value" : "in the response list, there is no meta id"
+  }, {
+    "name" : "package",
+    "value" : "protection response whitelist  set one item"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "831bba7203875862.json",
+  "parameterValues" : [ "chrome" ]
+}

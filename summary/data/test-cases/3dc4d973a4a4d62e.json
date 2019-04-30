@@ -1,0 +1,57 @@
+{
+  "uid" : "3dc4d973a4a4d62e",
+  "name" : "the profile show in the page",
+  "fullName" : "https: .the profile show in the page",
+  "historyId" : "fc75d20a7683def56724eee3d6cdb71a",
+  "time" : {
+    "start" : 1556551727865,
+    "stop" : 1556551728536,
+    "duration" : 671
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-8"
+  }, {
+    "name" : "suite",
+    "value" : "https: "
+  }, {
+    "name" : "testClass",
+    "value" : "https: "
+  }, {
+    "name" : "testMethod",
+    "value" : "the profile show in the page"
+  }, {
+    "name" : "package",
+    "value" : "https: "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3dc4d973a4a4d62e.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,57 @@
+{
+  "uid" : "adf69555336acb3f",
+  "name" : "check dashboard page",
+  "fullName" : "Profile basic setting: health exam  off.check dashboard page",
+  "historyId" : "7e23e55ca01764a319af3729a06e7135",
+  "time" : {
+    "start" : 1556553701914,
+    "stop" : 1556553703089,
+    "duration" : 1175
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-27"
+  }, {
+    "name" : "suite",
+    "value" : "Profile basic setting: health exam  off"
+  }, {
+    "name" : "testClass",
+    "value" : "Profile basic setting: health exam  off"
+  }, {
+    "name" : "testMethod",
+    "value" : "check dashboard page"
+  }, {
+    "name" : "package",
+    "value" : "Profile basic setting: health exam  off"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "adf69555336acb3f.json",
+  "parameterValues" : [ "chrome" ]
+}

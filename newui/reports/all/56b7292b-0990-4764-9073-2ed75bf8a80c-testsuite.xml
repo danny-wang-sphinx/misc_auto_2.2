@@ -1,0 +1,35 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1556551954964' stop='1556551963705'>
+    <name>protection request whitelist  set one item all</name>
+    <title>protection request whitelist  set one item all</title>
+    <test-cases>
+        <test-case start='1556551963620' status='passed' stop='1556551963621'>
+            <name>check ui</name>
+            <title>check ui</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-14'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556551963621' status='passed' stop='1556551963705'>
+            <name>not getonly, curl get and post will not be reject nor reload</name>
+            <title>not getonly, curl get and post will not be reject nor reload</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-14'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

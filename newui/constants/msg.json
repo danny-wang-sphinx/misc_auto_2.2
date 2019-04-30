@@ -1,0 +1,15 @@
+{
+  "alphnumUnderscoreDash": "alphanumeric character (e.g. a-z, A-Z, 0-9,",
+  "requiredMsg": "This field is required.",
+  "loginInvalidUserPwd": "Incorrect username or password",
+  "loginInactiveUser": "The account is not activated",
+  "usernameInvalid": "Username is invalid",
+  "usernameInvalidChar": "Username should be alphabet or number (e.g. a-z, A-Z, 0-9, \"_\", \"-\")",
+  "usernameMin": "Username should contain at least 2 characters",
+  "usernameMax": "Username cannot exceed 32 characters",
+  "pwdLengthInvalid": "Password should contain at least 8 characters and cannot exceed 32 characters",
+  "pwdUnmatchConfirm": "Password and confirm password not match",
+  "pwdCombinError": "Password should include three of following four: uppercase letters, lowercase letters, numerals and non-alphanumeric symbols",
+  "pwdInvalidChar": "< , > , - , \" , &",
+  "validError": "Validation failure, please correct the marked field(s) below."
+}

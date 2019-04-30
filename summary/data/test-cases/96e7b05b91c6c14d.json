@@ -1,0 +1,57 @@
+{
+  "uid" : "96e7b05b91c6c14d",
+  "name" : "check UI status",
+  "fullName" : "protection mode block.check UI status",
+  "historyId" : "92f79d799814c179e2a1da73a381cd62",
+  "time" : {
+    "start" : 1556551865435,
+    "stop" : 1556551865435,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-11"
+  }, {
+    "name" : "suite",
+    "value" : "protection mode block"
+  }, {
+    "name" : "testClass",
+    "value" : "protection mode block"
+  }, {
+    "name" : "testMethod",
+    "value" : "check UI status"
+  }, {
+    "name" : "package",
+    "value" : "protection mode block"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "96e7b05b91c6c14d.json",
+  "parameterValues" : [ "chrome" ]
+}

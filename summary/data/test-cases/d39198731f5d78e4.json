@@ -1,0 +1,57 @@
+{
+  "uid" : "d39198731f5d78e4",
+  "name" : "check uistatus",
+  "fullName" : "protection waf features:  on.check uistatus",
+  "historyId" : "3d33d743870b38dc853c198374eefb2a",
+  "time" : {
+    "start" : 1556552098319,
+    "stop" : 1556552098320,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-17"
+  }, {
+    "name" : "suite",
+    "value" : "protection waf features:  on"
+  }, {
+    "name" : "testClass",
+    "value" : "protection waf features:  on"
+  }, {
+    "name" : "testMethod",
+    "value" : "check uistatus"
+  }, {
+    "name" : "package",
+    "value" : "protection waf features:  on"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d39198731f5d78e4.json",
+  "parameterValues" : [ "chrome" ]
+}

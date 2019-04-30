@@ -1,0 +1,57 @@
+{
+  "uid" : "d1d363f614aede93",
+  "name" : "ui check",
+  "fullName" : "protection port offset  set port 90.ui check",
+  "historyId" : "1bb53626e6161ada8082ef5fecd9b8f8",
+  "time" : {
+    "start" : 1556551919501,
+    "stop" : 1556551919503,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-13"
+  }, {
+    "name" : "suite",
+    "value" : "protection port offset  set port 90"
+  }, {
+    "name" : "testClass",
+    "value" : "protection port offset  set port 90"
+  }, {
+    "name" : "testMethod",
+    "value" : "ui check"
+  }, {
+    "name" : "package",
+    "value" : "protection port offset  set port 90"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d1d363f614aede93.json",
+  "parameterValues" : [ "chrome" ]
+}

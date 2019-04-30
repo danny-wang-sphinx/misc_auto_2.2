@@ -1,0 +1,35 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1556551666397' stop='1556551707319'>
+    <name>protection http methods disable all default, enable all non-default</name>
+    <title>protection http methods disable all default, enable all non-default</title>
+    <test-cases>
+        <test-case start='1556551677125' status='passed' stop='1556551677125'>
+            <name>check ui status</name>
+            <title>check ui status</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-7'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556551677126' status='passed' stop='1556551707318'>
+            <name>diabled should be forbidden status,enable should be 200 </name>
+            <title>diabled should be forbidden status,enable should be 200 </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-7'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

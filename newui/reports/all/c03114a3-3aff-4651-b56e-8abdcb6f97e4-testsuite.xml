@@ -1,0 +1,35 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1556551408120' stop='1556551416995'>
+    <name>protection web: browser console monitor  true</name>
+    <title>protection web: browser console monitor  true</title>
+    <test-cases>
+        <test-case start='1556551416958' status='passed' stop='1556551416959'>
+            <name>check uistatus true</name>
+            <title>check uistatus true</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1556551416959' status='passed' stop='1556551416995'>
+            <name>check conf file on</name>
+            <title>check conf file on</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

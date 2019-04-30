@@ -1,0 +1,57 @@
+{
+  "uid" : "69f8f4d6316344a9",
+  "name" : "check uistatus",
+  "fullName" : "protection web standard security scheme: Form encryption  on.check uistatus",
+  "historyId" : "b9ccec13693a07cbc7adfe5e2260286e",
+  "time" : {
+    "start" : 1556551547032,
+    "stop" : 1556551547034,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "protection web standard security scheme: Form encryption  on"
+  }, {
+    "name" : "testClass",
+    "value" : "protection web standard security scheme: Form encryption  on"
+  }, {
+    "name" : "testMethod",
+    "value" : "check uistatus"
+  }, {
+    "name" : "package",
+    "value" : "protection web standard security scheme: Form encryption  on"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "69f8f4d6316344a9.json",
+  "parameterValues" : [ "chrome" ]
+}
