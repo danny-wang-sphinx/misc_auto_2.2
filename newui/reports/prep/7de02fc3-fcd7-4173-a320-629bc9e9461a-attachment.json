@@ -1,3 +1,0 @@
-{
-  "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".fa-check-square-o\"}\n  (Session info: chrome=74.0.3729.108)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Mac OS X 10.14.4 x86_64)"
-}

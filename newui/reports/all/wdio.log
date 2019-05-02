@@ -1,5 +1,0 @@
-2019-04-30T12:42:06.619Z WARN [PageAction]: isLoginUrl, true, https://192.168.5.18:20145/login.html?fail-no-session
-2019-04-30T12:42:06.638Z WARN [PageAction]: Login admin
-20192019-04-30T12:42:09.101Z INFO @wdio/local-runner: Shutting down spawned worker
-2019-04-30T12:42:09.277Z DEBUG @wdio/local-runner: Runner 0-0 finished with exit code 4
-driver: Request failed due to No active session with ID 8fab00d221bfeec41a58218824b9e7f2
