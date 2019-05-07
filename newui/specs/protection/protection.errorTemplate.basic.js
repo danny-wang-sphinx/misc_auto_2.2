@@ -28,12 +28,21 @@ describe('set error template', () => {
         })
       })
       it(`orginal response page content`, () => {
+        sleep(1000)
         let res = protectionSettingUtil.accessPageWithErrorCodes(keys,echoProfile.protectedSite)
-        browser.debug()
         verifyPageContent(res,testObj)
       })
     })
   })
+
+  function sleep(milliseconds) {
+    var start = new Date().getTime();
+    for (var i = 0; i < 1e7; i++) {
+      if ((new Date().getTime() - start) > milliseconds){
+       break;
+      }
+    }
+  }
 
   function verifyPageContent(res, testObj) {
     let keys = Object.keys(testObj)

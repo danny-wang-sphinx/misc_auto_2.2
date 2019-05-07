@@ -13,7 +13,7 @@ describe('protection waf.id: ', ()=> {
   afterAll(() => { profileUtil.setupProfile(false,defaultProfile)})
   describe('default check',() => {
     beforeAll(() => setup())
-    it(`inital ruleId should not empty`,() => {
+    it(`initial ruleId should not empty`,() => {
       expect(typeof initialId).toBe('string')
       expect(initialId.length).toBeGreaterThan(0)
     })
@@ -68,8 +68,11 @@ describe('protection waf.id: ', ()=> {
     initialId = curlAndGetRuleId()
   }
   function _curl(jsFile) {
+    sleep(3000)
     profilePage.actionLogger.warn(`curl by timestamp: ${jsFile}`)
     let res = specUtil.curlResource(defaultProfile.protectedSite, jsFile,profileData.injectionQuery)
+    console.log(`Danny Debug: ` + Object.keys(res))
+    console.log(`Danny Debug: ` + Object.values(res))
     profilePage.actionLogger.warn(`curl statusCode: ${jsFile}: ${res.status}`)
     return res.status
   }
@@ -99,6 +102,14 @@ describe('protection waf.id: ', ()=> {
   function getUiStatus(id) {
     toProfilePage()
     return profilePage.getWafRuleIdStatusById(id)
+  }
+  function sleep(milliseconds) {
+    var start = new Date().getTime();
+    for (var i = 0; i < 1e7; i++) {
+      if ((new Date().getTime() - start) > milliseconds){
+        break;
+      }
+    }
   }
 })
 

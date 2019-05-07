@@ -39,7 +39,9 @@ function isAutoToolDetectedPageContent(content) {
 }
 function isBlockingPageContent(content, templateContent) {
   let bodyTextIdx = templateContent.indexOf('<body')
+  console.log('bodyTextIdx: ' + bodyTextIdx)
   let keywordStr=templateContent.substring(bodyTextIdx)
+  console.log('keywordStr: ' + keywordStr)
   return content.includes(keywordStr)
 }
 function isNoScriptResponse(content) {

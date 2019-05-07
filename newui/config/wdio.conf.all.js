@@ -14,8 +14,7 @@ exports.config = merge(baseConf.config, {
   specs: [
     //topDir + '/specs/**/*.basic.js',
     //topDir + '/specs/**/*.comp.js',
-    topDir + '/specs/protection/profile.waf.id.basic.js',
-   
+    topDir + '/specs/protection/profile.invalidRequest.basic.js',
   ],
     baseUrl: dapConf.webConsoleUrl,
     }, {

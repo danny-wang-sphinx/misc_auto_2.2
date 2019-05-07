@@ -13,7 +13,8 @@ describe('protection web standard security scheme: Form encryption ', ()=> {
   const attackTypeForm = `"attack_type": ["Form"]`
   const testSite = echoProfile.protectedSite
   const expectedAttackType = 'Form'
-  const expectedErrorCode = 'INVALID_ENCRYPT_FORMAT'
+  const expectedErrorCode_1 = 'INVALID_ENCRYPT_FORMAT'
+  const expectedErrorCode_2 = 'NOT_ENCRYPTED'
   let tamperTime = Date.now() + '' + libcommonUtil.random(100)
   let tamperPath = `/${tamperTime}`
   let uiStatus
@@ -39,7 +40,8 @@ describe('protection web standard security scheme: Form encryption ', ()=> {
       console.log('Danny Debug:' + Object.keys(securityLog))
       console.log('Danny Debug:' + Object.values(securityLog))
       expect(securityLog.attackType).toBe(expectedAttackType)
-      expect(securityLog.errorCode).toContain(expectedErrorCode)
+      //expect(securityLog.errorCode).toMatch([expectedErrorCode_1, expectedErrorCode_2])
+      expect([expectedErrorCode_1, expectedErrorCode_2]).toContain(securityLog.errorCode)
     })
   })
   describe(`off`, () => {
