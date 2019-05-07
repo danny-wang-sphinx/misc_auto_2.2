@@ -1,3 +1,4 @@
 /node_modules/*
 /newui/reports/*
 /allure-report/*
+.gitmessage.txt
