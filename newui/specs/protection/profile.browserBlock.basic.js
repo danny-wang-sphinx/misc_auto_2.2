@@ -26,6 +26,7 @@ describe('protection web: block by browsers', ()=> {
     })
     it(`browser access should be reject ${test.reject}`, () => {
       let pageSource = funcTest()
+      sleep(3000)
       expect(specUtil.isAutoToolDetectedPageContent(pageSource)).toBe(test.reject)
     })
   })
@@ -45,5 +46,13 @@ describe('protection web: block by browsers', ()=> {
   }
   function funcTest() {
     return specUtil.accessTestwebFromBrowserAndPageSource(defaultProfile.protectedSite)
+  }
+  function sleep(milliseconds) {
+    var start = new Date().getTime();
+    for (var i = 0; i < 1e7; i++) {
+      if ((new Date().getTime() - start) > milliseconds){
+        break;
+      }
+    }
   }
 })

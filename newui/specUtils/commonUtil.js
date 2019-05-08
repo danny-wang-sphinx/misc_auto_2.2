@@ -38,11 +38,10 @@ function isAutoToolDetectedPageContent(content) {
   return content.includes('<body></body>')
 }
 function isBlockingPageContent(content, templateContent) {
-  let bodyTextIdx = templateContent.indexOf('<body')
-  console.log('bodyTextIdx: ' + bodyTextIdx)
-  let keywordStr=templateContent.substring(bodyTextIdx)
-  console.log('keywordStr: ' + keywordStr)
-  return content.includes(keywordStr)
+  //let bodyTextIdx = templateContent.indexOf('<body')
+  //let keywordStr=templateContent.substring(bodyTextIdx)
+  //return content.includes(keywordStr)
+  return content.includes(templateContent)
 }
 function isNoScriptResponse(content) {
   return content.includes('<head><noscript><meta http-equiv="Set-Cookie" content="')
