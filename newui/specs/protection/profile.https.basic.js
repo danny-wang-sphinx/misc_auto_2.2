@@ -71,6 +71,8 @@ describe('https: ', ()=> {
   }
   function checkSiteAccessible() {
     let status = curlResource().status
+    browser.pause(3000)
+    console.log('Danny: ' + status)
     expect(status==200).toBe(true)
   }
 })

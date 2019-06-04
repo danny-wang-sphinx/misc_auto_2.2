@@ -23,7 +23,7 @@ describe('protection web standard security scheme: Session Replay ', ()=> {
       })
       it(`check webdriver typing, attack_type has session replay: ${test}`, () => {
         let logs = testAndGetParsedLogs()
-        sleep(3000)
+        browser.pause(3000)
         expect(logs.includes(sessionRelayText)).toBe(test)
       })
     })
@@ -52,13 +52,5 @@ describe('protection web standard security scheme: Session Replay ', ()=> {
     // Use timestamp as unique uri, to check the log is logged
     commonUtil.accessEchoSiteAndSubmitForm(testSite)
     return commonUtil.stubAndGetParsedLogs(testSite)
-  }
-  function sleep(milliseconds) {
-    var start = new Date().getTime();
-    for (var i = 0; i < 1e7; i++) {
-      if ((new Date().getTime() - start) > milliseconds){
-        break;
-      }
-    }
   }
 })

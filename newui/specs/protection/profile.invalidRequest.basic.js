@@ -51,7 +51,7 @@ describe('protection invalid request policy: ', ()=> {
   }
   function _curl(jsFile) {
     let profilePage = new ProfilePage()
-    sleep(3000)
+    browser.pause(3000)
     profilePage.actionLogger.warn(`curl by timestamp: ${jsFile}`)
     let res = specUtil.curlResource(defaultProfile.protectedSite, jsFile,profileData.injectionQuery)
     //console.log(`Danny Debug: ` + Object.keys(res))
@@ -63,13 +63,5 @@ describe('protection invalid request policy: ', ()=> {
     let timeStamp = specUtil.timeStampAndRanNum()
     const jsFile = `/${timeStamp}.js`
     let curlStatusCode = _curl(jsFile)
-  }
-  function sleep(milliseconds) {
-    var start = new Date().getTime();
-    for (var i = 0; i < 1e7; i++) {
-      if ((new Date().getTime() - start) > milliseconds){
-        break;
-      }
-    }
   }
 })

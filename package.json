@@ -25,7 +25,10 @@
     "wi": "./node_modules/.bin/run-s wi:clean wi:run",
     "temp:run": "./node_modules/.bin/wdio newui/config/wdio.conf.temp.js",
     "temp": "./node_modules/.bin/run-s temp:run",
-    "test": "jest"
+    "test": "jest",
+    "upgrade:clean": "./node_modules/.bin/rimraf newui/reports/upgrade",
+    "upgrade:run": "./node_modules/.bin/wdio newui/config/wdio.conf.upgrade.js",
+    "upgrade": "./node_modules/.bin/run-s upgrade:clean upgrade:run"
   },
   "keywords": [],
   "author": "",

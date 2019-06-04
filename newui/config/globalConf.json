@@ -1,5 +1,5 @@
 {
-  "dapServer": "192.168.5.18",
+  "dapServer": "192.168.5.17",
   "seleniumHubServer": "192.168.5.103",
   "controlServerIp": "192.168.5.103",
   "defaultProfile": {

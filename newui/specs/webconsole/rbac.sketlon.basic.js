@@ -50,26 +50,16 @@ describe('role based menu and user menu check', () => {
       expect(isAccountVisible).toEqual(accountType == 'Admin' ? true : false)
     })
   })
-
-  function sleep(milliseconds) {
-    var start = new Date().getTime();
-    for (var i = 0; i < 1e7; i++) {
-      if ((new Date().getTime() - start) > milliseconds){
-       break;
-      }
-    }
-  }
-
   function _getStats() {
     let res = {}
     testdata.menuChekers.forEach((checker) => {
       let val = page[checker]();
-      sleep(1000)
+      browser.pause(1000)
       res[checker] = val
     })
     testdata.systemMenuChekers.forEach((checker) => {
       let val = page[checker]();
-      sleep(1000)
+      browser.pause(1000)
       res[checker] = val
     })
     return res

@@ -27,7 +27,7 @@ describe('protection web: block by browsers', ()=> {
     })
     it(`browser access should be reject ${test.reject}`, () => {
       let pageSource = funcTest()
-      sleep(3000)
+      //sleep(3000)
       expect(specUtil.isAutoToolDetectedPageContent(pageSource)).toBe(test.reject)
     })
   })

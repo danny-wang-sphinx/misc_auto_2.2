@@ -45,8 +45,8 @@ exports.config = {
     // WebdriverIO allows it to run your tests in arbitrary locations (e.g. locally or
     // on a remote machine).
     // runner: 'local',
-    debug: true,
-    execArgv: ['--inspect=127.0.0.1:5859'], 
+    //debug: true,
+    //execArgv: ['--inspect=127.0.0.1:5859'], 
     //
     //
     // ============

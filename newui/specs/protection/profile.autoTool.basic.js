@@ -15,7 +15,7 @@ describe('protection web standard security scheme: autoTool dection ', ()=> {
         verifyUiStatus(status)
       })
       it(`check webdriver will not be rejected or not`, () => {
-        sleep(3000)
+        browser.pause(3000)
         let funcResult = funcTest()
         expect(commonUtil.isAutoToolDetectedPageContent(funcResult)).toBe(status)
       })
@@ -32,13 +32,5 @@ describe('protection web standard security scheme: autoTool dection ', ()=> {
   }
   function verifyUiStatus(val) {
     expect(uiStatus).toBe(val)
-  }
-  function sleep(milliseconds) {
-    var start = new Date().getTime();
-    for (var i = 0; i < 1e7; i++) {
-      if ((new Date().getTime() - start) > milliseconds){
-        break;
-      }
-    }
   }
 })
